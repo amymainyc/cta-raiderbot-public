@@ -1,4 +1,2 @@
 discord
-git+https://github.com/clerie/mcuuid
 loguru
-dblpy

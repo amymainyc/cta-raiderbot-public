@@ -1,0 +1,42 @@
+{
+    "config": {
+        "botToken": "",
+        "inviteLink": "https://discord.com/oauth2/authorize?client_id=829912552258404372&scope=bot&permissions=8",
+        "githubOath": "",
+        "bannerUrl": "https://i.imgur.com/U1DN2PJ.png",
+        "welcomeMessageID": 833044417489141780,
+        "nextChannel": 6,
+        "footer": "Raider Bot by Moonflower#8861 and porsul#0001"
+    },
+    "channels": {
+        "Welcome": 829922250043293726,
+        "Visitor": 832474416788013106,
+        "ShadeRaiders": 829922272797655040,
+        "ShadowRaiders": 829922431409979432,
+        "KRAiders": 829922443127816202,
+        "DawnRaiders": 829922456659034152,
+        "The Legendary Raiders": 829922456659034152,
+        "DemonicRaiders": 829922485200879686,
+        "Raging Bull Raiders": 829922499277750272
+    },
+    "roles": {
+        "ShadeRaiders": 832699485607559189,
+        "ShadowRaiders": 832699485607559189,
+        "KRAiders": 832699485607559189,
+        "DawnRaiders": 832699485607559189,
+        "The Legendary Raiders": 832699485607559189,
+        "DemonicRaiders": 832699485607559189,
+        "Raging Bull Raiders": 832699485607559189,
+        "Recruitee": 832802765323501648,
+        "Visitor": 832802765323501648
+    },
+    "newMembers": {
+        "ShadeRaiders": 0,
+        "ShadowRaiders": 0,
+        "KRAiders": 0,
+        "DawnRaiders": 0,
+        "The Legendary Raiders": 0,
+        "DemonicRaiders": 0,
+        "Raging Bull Raiders": 0
+    }
+}

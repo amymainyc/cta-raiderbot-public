@@ -26,7 +26,7 @@ async def isLeader(ctx):
     with open('data/config.json') as d:
         channels = json.load(d)["channels"]
         for c in channels:
-            if channels[c] == ctx.channel.id and c != "Visitor" and c != "Welcome":
+            if channels[c] == ctx.channel.id and c != "General" and c != "Welcome":
                 return True
     await ctx.send('```This command can only be used in recruitment channels.```')
     return False
@@ -49,8 +49,22 @@ async def isRecruitee(ctx, user):
 
 
 
+async def handleException(e, channel):
+    logger.exception(e)
+    await channel.send(f"```{str(e)}```")
+    with open ("data/config.json") as f:
+        config = json.load(f)
+    with open("data/exceptions.json") as f:
+        exceptions = json.load(f)
+        exceptions["exceptions"].append(str(e))
+    with open("data/exceptions.json", "w") as f:
+        json.dump(exceptions, f, indent=4)
+
+
+
 async def gitPush():
     # push files to GitHub
+    logger.info("Pushing latest files to GitHub.")
     with open('data/config.json') as d:
         config = json.load(d)
     filenames = ["data/config.json", "data/recruitees.json"]

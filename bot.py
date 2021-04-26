@@ -1,4 +1,5 @@
 import os
+import discord
 from discord.ext import commands
 from loguru import logger
 import json
@@ -6,8 +7,10 @@ import json
 with open("data/config.json") as f:
     config = json.load(f)
 
+intents = discord.Intents.default()
+intents.members = True
 token = config["config"]["botToken"]
-client = commands.Bot(command_prefix='r.', case_insensitive=True)
+client = commands.Bot(command_prefix=['r.', 'R.'], case_insensitive=True, intents=intents)
 client.remove_command('help')
 
 

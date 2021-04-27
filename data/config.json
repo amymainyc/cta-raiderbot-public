@@ -1,42 +1,58 @@
 {
     "config": {
         "botToken": "",
-        "inviteLink": "https://discord.com/oauth2/authorize?client_id=829912552258404372&scope=bot&permissions=8",
+        "cloneToken": "",
+        "inviteLink": "",
         "githubOath": "",
-        "bannerUrl": "https://i.imgur.com/U1DN2PJ.png",
-        "welcomeMessageID": 833044417489141780,
-        "nextChannel": 6,
-        "footer": "Raider Bot by Moonflower#8861 and porsul#0001"
+        "bannerUrl": "https://i.imgur.com/fUc2E2y.png",
+        "welcomeMessageID": 836433808663511150,
+        "nextChannel": 2,
+        "footer": "Raider Bot by Moonflower#8861 and porsul#0001",
+        "newMemberRole": 836067330119041074,
+        "errorLogs": 836067111193018408
     },
     "channels": {
-        "Welcome": 829922250043293726,
-        "Visitor": 832474416788013106,
-        "ShadeRaiders": 829922272797655040,
-        "ShadowRaiders": 829922431409979432,
-        "KRAiders": 829922443127816202,
-        "DawnRaiders": 829922456659034152,
-        "The Legendary Raiders": 829922456659034152,
-        "DemonicRaiders": 829922485200879686,
-        "Raging Bull Raiders": 829922499277750272
+        "Welcome": 833087112932884490,
+        "General": 639912850122473482,
+        "ShadeRaiders": 833068870951501854,
+        "ShadowRaiders": 833083310279753768,
+        "KRAiders": 833078037137588224,
+        "DawnRaiders": 833072220145975316,
+        "The Legendary Raiders": 833072608500252692,
+        "DemonicRaiders": 833073163952586822,
+        "Raging Bull Raiders": 833088814645772331,
+        "ShadyRaiders": 835330423306846228
     },
     "roles": {
-        "ShadeRaiders": 832699485607559189,
-        "ShadowRaiders": 832699485607559189,
-        "KRAiders": 832699485607559189,
-        "DawnRaiders": 832699485607559189,
-        "The Legendary Raiders": 832699485607559189,
-        "DemonicRaiders": 832699485607559189,
-        "Raging Bull Raiders": 832699485607559189,
-        "Recruitee": 832802765323501648,
-        "Visitor": 832802765323501648
+        "ShadeRaiders": 675720492027478020,
+        "ShadowRaiders": 712129673676455997,
+        "KRAiders": 716741750613475408,
+        "DawnRaiders": 772434472951349258,
+        "The Legendary Raiders": 679398792088387585,
+        "DemonicRaiders": 807578334493016114,
+        "Raging Bull Raiders": 826218532480090123,
+        "ShadyRaiders": 766527517787815966,
+        "Recruitee": 739483861393866762,
+        "General": 815775945214525480
+    },
+    "isOpen": {
+        "ShadeRaiders": "open",
+        "ShadowRaiders": "open",
+        "KRAiders": "open",
+        "DawnRaiders": "open",
+        "The Legendary Raiders": "open",
+        "DemonicRaiders": "open",
+        "Raging Bull Raiders": "open",
+        "ShadyRaiders": "open"
     },
     "newMembers": {
         "ShadeRaiders": 0,
         "ShadowRaiders": 0,
-        "KRAiders": 0,
+        "KRAiders": 2,
         "DawnRaiders": 0,
         "The Legendary Raiders": 0,
-        "DemonicRaiders": 0,
-        "Raging Bull Raiders": 0
+        "DemonicRaiders": 1,
+        "Raging Bull Raiders": 0,
+        "ShadyRaiders": 2
     }
 }

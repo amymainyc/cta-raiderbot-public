@@ -18,18 +18,31 @@ async def isAdmin(ctx):
 async def isLeader(ctx):
     # check if user is guild leader
     with open('data/config.json') as d:
-        role = ctx.guild.get_role(json.load(d)["roles"]["Recruitee"])
+        config = json.load(d)
+    role = ctx.guild.get_role(config["roles"]["Recruitee"])
     userRoles = ctx.message.author.roles
     if role in userRoles:
         await ctx.send('```Recruitees cannot use this command.```')
         return False
-    with open('data/config.json') as d:
-        channels = json.load(d)["channels"]
-        for c in channels:
-            if channels[c] == ctx.channel.id and c != "General" and c != "Welcome":
-                return True
+    channels = config["channels"]
+    for c in channels:
+        if channels[c] == ctx.channel.id and c != "General" and c != "Welcome":
+            return True
     await ctx.send('```This command can only be used in recruitment channels.```')
     return False
+
+
+
+def isGuildLeader(user):
+    # check if user is guild leader
+    with open('data/config.json') as d:
+        config = json.load(d)
+    guild = user.guild
+    role = guild.get_role(config["roles"]["Recruitee"])
+    userRoles = user.roles
+    if role in userRoles:
+        return False
+    return True
 
 
 

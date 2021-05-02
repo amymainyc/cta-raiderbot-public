@@ -54,5 +54,15 @@
         "DemonicRaiders": 1,
         "Raging Bull Raiders": 0,
         "ShadyRaiders": 2
+    },
+    "guildChannels": {
+        "ShadeRaiders": 714086833461395477,
+        "ShadowRaiders": 714080718984183869,
+        "KRAiders": 716992128667877429,
+        "DawnRaiders": 772150308457283614,
+        "The Legendary Raiders": 805395634654937158,
+        "DemonicRaiders": 807582655683231804,
+        "Raging Bull Raiders": 826223646246043678,
+        "ShadyRaiders": 835322001005477958
     }
 }

@@ -31,72 +31,15 @@ class Recruit(commands.Cog):
 
 
 
-    @commands.command()
-    async def setChannels(self, ctx):
-        # sets up recruitment channels
+    async def checkWelcomeMessage(self):
+        # make sure the welcome message has preset reactions
         try:
-            if await isAdmin(ctx):
-                channel = ctx.channel.id 
-                channelData = config["channels"] 
-                for c in channelData: 
-                    channelData[c] = 0
-
-                def whosent(m):
-                    return m.author == ctx.author
-
-                for c in channelData:
-                    text = f"```Please reply with the channel id for your {c} channel."
-                    for ch in channelData:
-                        channelID = channelData[ch]
-                        if channelID == 0:
-                            text += f"\n\n{ch} Channel: "
-                            break
-                        channelName = self.client.get_channel(channelID).name
-                        text += f"\n\n{ch} Channel: #{channelName}"
-                    text += "```"
-                    botMessage = await ctx.send(text)
-                    
-                    try:
-                        channelID = await self.client.wait_for('message', check=whosent, timeout=300)
-                        await channelID.delete() 
-                        channelID = channelID.content
-                        channelData[c] = int(channelID)
-                        await botMessage.delete()
-
-                    except asyncio.TimeoutError:
-                        return await ctx.send('You took too long \:( Please try the command again.')
-                    except:
-                        return await ctx.send('```Invalid channel ID. Please check and try again.```')
-
-                with open("data/config.json", "w") as f:
-                    config["channels"] = channelData
-                    json.dump(config, f, indent=4)
-                await ctx.send('```Recruitment channels have been set!```')
-                await self.sendEmbed()
-        except Exception as e:    
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
-
-
-
-    async def sendEmbed(self):
-        # send a welcome message embed
-        try:
+            welcomeMessageID = config["config"]["welcomeMessageID"]
             welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
-            embed = discord.Embed(
-                title="Welcome to the Raiders discord server!", 
-                color=0x000000,
-                description="Follow the instructions below to gain access to channels."
-            )
-            embed.add_field(name="** **", value="React with ✅ to be sent to a recruitment channel. \nReact with ❌ if you already have a guild or don't want to join Raiders.")
-            embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
-            embed.set_image(url=config["config"]["bannerUrl"])
-            welcomeMessage = await welcomeChannel.send(embed=embed)
-            await welcomeMessage.add_reaction("✅")
-            await welcomeMessage.add_reaction("❌")
-            with open("data/config.json", "w") as f:
-                config["config"]["welcomeMessageID"] = welcomeMessage.id
-                json.dump(config, f, indent=4)
+            message = await welcomeChannel.fetch_message(welcomeMessageID)
+            await message.clear_reactions()
+            await message.add_reaction('✅')
+            await message.add_reaction('❌')
         except Exception as e:
             channel = self.client.get_channel(config["config"]["errorLogs"])
             await handleException(e, channel)
@@ -123,69 +66,6 @@ class Recruit(commands.Cog):
                 with open("data/config.json", "w") as f:
                     config["config"]["welcomeMessageID"] = welcomeMessage.id
                     json.dump(config, f, indent=4)
-        except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
-
-
-
-    @commands.command()
-    async def setRoles(self, ctx):
-        # sets up recruitment roles
-        try:
-            if await isAdmin(ctx):
-                channel = ctx.channel.id
-                roleData = config["roles"] 
-                for r in roleData:
-                    roleData[r] = 0
-
-                def whosent(m):
-                    return m.author == ctx.author
-
-                for r in roleData:
-                    text = f"```Please tag your {r} role below."
-                    for ro in roleData:
-                        roleID = roleData[ro]
-                        if roleID == 0:
-                            text += f"\n\n{ro} Role: "
-                            break
-                        role = ctx.guild.get_role(roleID).name
-                        text += f"\n\n{ro} Role: @{role}"
-                    text += "```"
-                    botMessage = await ctx.send(text)
-                    
-                    try:
-                        roleID = await self.client.wait_for('message', check=whosent, timeout=300)
-                        await roleID.delete()
-                        roleID = roleID.content[3:-1]
-                        roleData[r] = int(roleID)
-                        await botMessage.delete()
-
-                    except asyncio.TimeoutError:
-                        return await ctx.send('You took too long \:( Please try the command again.')
-                    except Exception as e:
-                        logger.exception(e)
-                        return await ctx.send('```Invalid role. Please check and try again.```')
-
-                with open("data/config.json", "w") as f:
-                    config["roles"] = roleData
-                    json.dump(config, f, indent=4)
-                await ctx.send("```Recruitment roles have been set!```")
-        except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
-
-
-
-    async def checkWelcomeMessage(self):
-        # make sure the welcome message has preset reactions
-        try:
-            welcomeMessageID = config["config"]["welcomeMessageID"]
-            welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
-            message = await welcomeChannel.fetch_message(welcomeMessageID)
-            await message.clear_reactions()
-            await message.add_reaction('✅')
-            await message.add_reaction('❌')
         except Exception as e:
             channel = self.client.get_channel(config["config"]["errorLogs"])
             await handleException(e, channel)
@@ -274,9 +154,8 @@ class Recruit(commands.Cog):
     async def guildTimeout(self, ogChannel, member):
         try:
             def whosent(m):
-                return isLeader(m.author) and m.channel == ogChannel
+                return isGuildLeader(m.author) and m.channel == ogChannel
             message = await self.client.wait_for('message', check=whosent, timeout=600)
-            print(message)
         except asyncio.TimeoutError:
             channels = config["channels"]
             index = config["config"]["nextChannel"]
@@ -313,7 +192,10 @@ class Recruit(commands.Cog):
                 json.dump(config, f, indent=4)
             with open("data/recruitees.json") as f:
                 recruitees = json.load(f)
-                recruitees[str(member.id)].append(f"[Sent to {nextChannel} due to timeout]")
+                try:
+                    recruitees[str(member.id)].append(f"[Sent to {nextChannel} due to timeout]")
+                except:
+                    pass
             with open("data/recruitees.json", "w") as f:
                 json.dump(recruitees, f, indent=4)
 
@@ -386,9 +268,14 @@ class Recruit(commands.Cog):
                         config["newMembers"][channelName] += 1
                         json.dump(config, f, indent=4)
                     embed.add_field(name=f"@{member.name} has been recruited to {channelName} ✅", value="** **")
+                    guildChannel = self.client.get_channel(config["guildChannels"][channelName])
+                    await guildChannel.send(f"<@{member.id}> has arrived! `(Recruited to {channelName} by {ctx.author.name})`")
                     with open("data/recruitees.json") as f:
                         recruitees = json.load(f)
-                        recruitees.pop(str(member.id))
+                        try:
+                            recruitees.pop(str(member.id))
+                        except:
+                            pass
                     with open("data/recruitees.json", "w") as f:
                         json.dump(recruitees, f, indent=4)
                 elif str(reaction.emoji) == "❌":
@@ -438,7 +325,10 @@ class Recruit(commands.Cog):
                             await targetChannel.send(f"(・ω・)ノ <@{member.id}> has joined the party!")
                             with open("data/recruitees.json") as f:
                                 recruitees = json.load(f)
-                                recruitees.pop(str(member.id))
+                                try: 
+                                    recruitees.pop(str(member.id))
+                                except:
+                                    pass
                             with open("data/recruitees.json", "w") as f:
                                 json.dump(recruitees, f, indent=4)
                         else:
@@ -453,7 +343,10 @@ class Recruit(commands.Cog):
                             await targetChannel.send(f"(・ω・)ノ <@{member.id}> has landed! (Sent over by @{ctx.author.name}) <@&{leaderRole}>")
                             with open("data/recruitees.json") as f:
                                 recruitees = json.load(f)
-                                recruitees[str(member.id)].append(f"[Transferred to {targetName} by @{ctx.author.name}]")
+                                try: 
+                                    recruitees[str(member.id)].append(f"[Transferred to {targetName} by @{ctx.author.name}]")
+                                except:
+                                    pass
                             with open("data/recruitees.json", "w") as f:
                                 json.dump(recruitees, f, indent=4)
                             chatLog = "\n".join(recruitees[str(member.id)])

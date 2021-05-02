@@ -90,16 +90,6 @@ class Admin(commands.Cog):
         )
         embed.set_thumbnail(url=self.client.user.avatar_url)
         embed.add_field(
-            name="★ **r.setchannels**",
-            value="Sets up recruitment channels `(server admin only)`",
-            inline=False
-        )
-        embed.add_field(
-            name="★ **r.setroles**",
-            value="Sets up recruitment roles `(server admin only)`",
-            inline=False
-        )
-        embed.add_field(
             name="★ **r.purge (n)**",
             value="Purges n messages from current channel excluding pinned messages `(server admin only)`",
             inline=False

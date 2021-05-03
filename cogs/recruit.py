@@ -267,9 +267,10 @@ class Recruit(commands.Cog):
                     with open("data/config.json", "w") as f:
                         config["newMembers"][channelName] += 1
                         json.dump(config, f, indent=4)
-                    embed.add_field(name=f"@{member.name} has been recruited to {channelName} ✅", value="** **")
+                    emoji = config["emojis"][channelName]
+                    embed.add_field(name=f"@{member.name} has been recruited to {channelName} {emoji}✅", value="** **")
                     guildChannel = self.client.get_channel(config["guildChannels"][channelName])
-                    await guildChannel.send(f"<@{member.id}> has arrived! `(Recruited to {channelName} by {ctx.author.name})`")
+                    await guildChannel.send(f"<@{member.id}> has arrived! `(Recruited to {channelName} by {ctx.author.name})`{emoji}")
                     with open("data/recruitees.json") as f:
                         recruitees = json.load(f)
                         try:
@@ -323,6 +324,7 @@ class Recruit(commands.Cog):
                             await member.remove_roles(ctx.channel.guild.get_role(config["roles"]["Recruitee"]))
                             await member.add_roles(ctx.channel.guild.get_role(config["roles"]["General"]))
                             await targetChannel.send(f"(・ω・)ノ <@{member.id}> has joined the party!")
+                            emoji = ""
                             with open("data/recruitees.json") as f:
                                 recruitees = json.load(f)
                                 try: 
@@ -357,9 +359,10 @@ class Recruit(commands.Cog):
                             embed.add_field(name=f"{member.name}'s previous chat logs for your convenience:", value=f"** **\n```{chatLog}```")
                             embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
                             await targetChannel.send(embed=embed)
+                            emoji = config["emojis"][targetName]
 
                         embed = discord.Embed()
-                        embed.add_field(name=f"@{member.name} has been sent to {targetName} ✅", value=f"** **")
+                        embed.add_field(name=f"@{member.name} has been sent to {targetName} {emoji}✅", value=f"** **")
                         embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
                         await message.edit(embed=embed)
                         await message.clear_reactions()
@@ -406,7 +409,8 @@ class Recruit(commands.Cog):
                     with open("data/config.json", "w") as f:
                         config["isOpen"][channelName] = "open"
                         json.dump(config, f, indent=4)
-                    embed.add_field(name=f"{channelName} has been opened to new recruits ✅", value="** **")
+                    emoji = config["emojis"][channelName]
+                    embed.add_field(name=f"{channelName} has been opened to new recruits {emoji}✅", value="** **")
                 elif str(reaction.emoji) == "❌":
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)
@@ -452,7 +456,8 @@ class Recruit(commands.Cog):
                     with open("data/config.json", "w") as f:
                         config["isOpen"][channelName] = "closed"
                         json.dump(config, f, indent=4)
-                    embed.add_field(name=f"{channelName} has been closed to new recruits ✅", value="** **")
+                    emoji = config["emojis"][channelName]
+                    embed.add_field(name=f"{channelName} has been closed to new recruits {emoji}✅", value="** **")
                 elif str(reaction.emoji) == "❌":
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)

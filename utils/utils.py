@@ -65,13 +65,6 @@ async def isRecruitee(ctx, user):
 async def handleException(e, channel):
     logger.exception(e)
     await channel.send(f"```{str(e)}```")
-    with open ("data/config.json") as f:
-        config = json.load(f)
-    with open("data/exceptions.json") as f:
-        exceptions = json.load(f)
-        exceptions["exceptions"].append(str(e))
-    with open("data/exceptions.json", "w") as f:
-        json.dump(exceptions, f, indent=4)
 
 
 

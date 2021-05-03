@@ -28,7 +28,7 @@ class Admin(commands.Cog):
         with open("data/exceptions.json", "w") as f:
             exceptions = {"exceptions":[]}
             json.dump(exceptions, f, indent=4)
-        activity = discord.Game(name=f"Crush Them All!")
+        activity = discord.Game(name=f"Crush Them All! | r.help")
         await self.client.change_presence(activity=activity)
         await asyncio.sleep(43200)
         await gitPush()
@@ -38,6 +38,43 @@ class Admin(commands.Cog):
     @commands.command()
     async def help(self, ctx):
         # help command
+        left = '⏪'
+        right = '⏩'
+        pages = [self.makeGeneralHelpEmbed(), self.makeRecruitHelpEmbed(), self.makeModHelpEmbed()]
+        message = await ctx.send(embed = pages[0])
+        await message.add_reaction(left)
+        await message.add_reaction(right)
+
+        def check(reaction, user):
+            return user == ctx.author
+
+        i = 0
+        reaction = None
+
+        while True:
+            if str(reaction) == left:
+                i -= 1
+                if i < 0:
+                    i = len(pages) - 1
+                await message.edit(embed=pages[i])
+            elif str(reaction) == right:
+                i += 1
+                if i > len(pages) - 1:
+                    i = 0
+                await message.edit(embed=pages[i])
+            try:
+                reaction, user = await self.client.wait_for('reaction_add', timeout=300, check=check)
+                await message.remove_reaction(reaction, user)
+            except Exception as e:
+                print(str(e))
+                break
+
+        await message.clear_reactions()
+    
+
+
+    def makeGeneralHelpEmbed(self):
+        # make the general help embed
         embed = discord.Embed(
             title="Raider Bot's Commands (r.)"
         )
@@ -48,10 +85,26 @@ class Admin(commands.Cog):
             inline=False
         )
         embed.add_field(
-            name="★ **r.modhelp**",
-            value="Returns the command list for moderation",
+            name="★ **r.guildwar (guild tag)**",
+            value="Returns the guild war rankings for the given guild `(Aliases: r.gw (guild tag))`",
             inline=False
         )
+        embed.add_field(
+            name="★ **r.guildwarraiders**",
+            value="Returns the guild war rankings for all of the Raider guilds `(Aliases: r.gwr)`",
+            inline=False
+        )
+        embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
+        return embed
+
+
+
+    def makeRecruitHelpEmbed(self):
+        # make the recruit help embed
+        embed = discord.Embed(
+            title="Raider Bot's Recruitment Commands (r.)"
+        )
+        embed.set_thumbnail(url=self.client.user.avatar_url)
         embed.add_field(
             name="★ **r.recruit @user**",
             value="Recruits a user to a guild `(guild leader only)`",
@@ -78,13 +131,12 @@ class Admin(commands.Cog):
             inline=False
         )
         embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
-        await ctx.send(embed=embed)
-    
+        return embed
 
 
-    @commands.command()
-    async def modHelp(self, ctx):
-        # mod help command
+
+    def makeModHelpEmbed(self):
+        # make the mod help embed
         embed = discord.Embed(
             title="Raider Bot's Mod Commands (r.)"
         )
@@ -105,7 +157,7 @@ class Admin(commands.Cog):
             inline=False
         )
         embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
-        await ctx.send(embed=embed)
+        return embed
 
 
 
@@ -116,7 +168,7 @@ class Admin(commands.Cog):
             await ctx.send("Pushing latest files to GitHub.")
             with open('data/config.json') as d:
                 config = json.load(d)
-            filenames = ["data/config.json", "data/recruitees.json"]
+            filenames = ["data/config.json", "data/recruitees.json", "data/guildwar.json"]
             for filename in filenames: 
                 try:
                     token = config["config"]["githubOath"]

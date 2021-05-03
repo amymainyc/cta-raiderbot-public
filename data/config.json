@@ -9,7 +9,10 @@
         "nextChannel": 2,
         "footer": "Raider Bot by Moonflower#8861 and porsul#0001",
         "newMemberRole": 836067330119041074,
-        "errorLogs": 836067111193018408
+        "errorLogs": 836067111193018408,
+        "guildID": 585433379617636353,
+        "guildWar": "http://gzidlerpg.appspot.com/web/scores?tid=233060001&offset=",
+        "guildWarBannerUrl": "https://i.imgur.com/aK5Y268.jpg"
     },
     "channels": {
         "Welcome": 833087112932884490,
@@ -41,19 +44,19 @@
         "KRAiders": "open",
         "DawnRaiders": "open",
         "The Legendary Raiders": "open",
-        "DemonicRaiders": "open",
+        "DemonicRaiders": "closed",
         "Raging Bull Raiders": "open",
         "ShadyRaiders": "open"
     },
     "newMembers": {
         "ShadeRaiders": 0,
         "ShadowRaiders": 0,
-        "KRAiders": 2,
+        "KRAiders": 0,
         "DawnRaiders": 0,
-        "The Legendary Raiders": 0,
+        "The Legendary Raiders": 1,
         "DemonicRaiders": 1,
         "Raging Bull Raiders": 0,
-        "ShadyRaiders": 2
+        "ShadyRaiders": 0
     },
     "guildChannels": {
         "ShadeRaiders": 714086833461395477,
@@ -64,5 +67,15 @@
         "DemonicRaiders": 807582655683231804,
         "Raging Bull Raiders": 826223646246043678,
         "ShadyRaiders": 835322001005477958
+    },
+    "emojis": {
+        "ShadeRaiders": "<a:Shade:838800100452597840>",
+        "ShadowRaiders": "<a:Shadow:838791658874994688>",
+        "KRAiders": "<a:Kra:838793537281327104>",
+        "DawnRaiders": "<a:Dawn:838786097173364799>",
+        "The Legendary Raiders": "<a:Legendary:838795357038182440>",
+        "DemonicRaiders": "<a:Demonic:838789295954198529>",
+        "Raging Bull Raiders": "<a:Raging:838796907517313124>",
+        "ShadyRaiders": "<a:Shady:838801483972739082>"
     }
 }

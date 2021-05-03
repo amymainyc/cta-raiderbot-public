@@ -7,7 +7,6 @@ A custom bot made for the Raider's discord with moderation and recruitment featu
 | r.guildwar	| Returns the guild war rankings for the given guild, `(Aliases: r.gw (guild tag))` |
 | r.guildwarraiders	| Returns the guild war rankings for all of the Raider guilds. `(Aliases: r.gwr)` |
 | 🔴 Recruitment Commands | |
-| :--- | --- |
 | r.recruit @user	| Recruits a user to a guild. `(guild leader only)` |
 | r.transfer @user	| Sends the user to another channel due to unsuccessful recruitment. `(guild leader only)` |
 | r.closeguild	| Closes guild to new recruits. `(guild leader only)` |

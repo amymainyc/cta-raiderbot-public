@@ -198,13 +198,15 @@ class Admin(commands.Cog):
                                 print(resp)
 
                 except Exception as e:
-                    logger.exception(e)
+                    channel = self.client.get_channel(config["config"]["errorLogs"])
+                    await handleException(e, channel)
 
 
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx : commands.Context, exception):
         # error handling
+        logger.exception(exception)
         if isinstance(exception, commands.CommandNotFound):
             return await ctx.send("```Command not found! Check r.help for usage instructions.```")
         if isinstance(exception, commands.MemberNotFound):
@@ -215,6 +217,9 @@ class Admin(commands.Cog):
             return await ctx.send("```Invalid arguments! Check r.help for usage instructions.```")
         if isinstance(exception, commands.TooManyArguments):
             return await ctx.send("```Too many arguments! Check r.help for usage instructions.```")
+        else:
+            channel = self.client.get_channel(config["config"]["errorLogs"])
+            await handleException(exception, channel)
 
 
 

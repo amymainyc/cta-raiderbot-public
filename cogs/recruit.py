@@ -50,7 +50,7 @@ class Recruit(commands.Cog):
     async def sendNewEmbed(self, ctx):
         # send a new welcome message
         try:
-            if isAdmin:
+            if await isAdmin(ctx):
                 welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
                 embed = discord.Embed(
                     title="Welcome to the Raiders discord server!", 
@@ -409,8 +409,7 @@ class Recruit(commands.Cog):
                     with open("data/config.json", "w") as f:
                         config["isOpen"][channelName] = "open"
                         json.dump(config, f, indent=4)
-                    emoji = config["emojis"][channelName]
-                    embed.add_field(name=f"{channelName} has been opened to new recruits {emoji}✅", value="** **")
+                    embed.add_field(name=f"{channelName} has been opened to new recruits ✅", value="** **")
                 elif str(reaction.emoji) == "❌":
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)
@@ -456,8 +455,7 @@ class Recruit(commands.Cog):
                     with open("data/config.json", "w") as f:
                         config["isOpen"][channelName] = "closed"
                         json.dump(config, f, indent=4)
-                    emoji = config["emojis"][channelName]
-                    embed.add_field(name=f"{channelName} has been closed to new recruits {emoji}✅", value="** **")
+                    embed.add_field(name=f"{channelName} has been closed to new recruits ✅", value="** **")
                 elif str(reaction.emoji) == "❌":
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)

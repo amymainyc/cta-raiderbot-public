@@ -1,0 +1,90 @@
+{
+    "Guild Wars Phase 1 has started!": {
+        "time": 1620170100,
+        "image": "https://i.imgur.com/aK5Y268.jpg",
+        "thumbnail": "https://i.imgur.com/RphVLfm.jpg",
+        "intervals": 604800,
+        "color": "0xff3224",
+        "description": "Set your defenses ASAP so that Warlords have time to make necessary adjustments!"
+    },
+    "Guild Wars Phase 2 has started!": {
+        "time": 1620256500,
+        "image": "https://i.imgur.com/aK5Y268.jpg",
+        "thumbnail": "https://i.imgur.com/RphVLfm.jpg",
+        "intervals": 604800,
+        "color": "0x242fff",
+        "description": "Wait for your Warlord's instructions before attacking!"
+    },
+    "Guild Wars Phase 3 has started!": {
+        "time": 1620342900,
+        "image": "https://i.imgur.com/aK5Y268.jpg",
+        "thumbnail": "https://i.imgur.com/RphVLfm.jpg",
+        "intervals": 604800,
+        "color": "0xffffff",
+        "description": "Don't fail attacks and ask help from your Warlords if you need assistance on who to attack."
+    },
+    "Twin-Face ends in 60m!": {
+        "time": 1621461600,
+        "image": "https://i.imgur.com/y2e003y.png",
+        "thumbnail": "https://i.imgur.com/tKGgmIO.png",
+        "intervals": 2073600,
+        "color": "0x7c24ff",
+        "description": "Dump your remaining energy!"
+    },
+    "Mad King ends in 60m!": {
+        "time": 1621807200,
+        "image": "https://i.imgur.com/VPwfwwO.jpg",
+        "thumbnail": "https://i.imgur.com/V1LEVIY.png",
+        "intervals": 2073600,
+        "color": "0xff5b24",
+        "description": "Dump your remaining energy!"
+    },
+    "Gun Lord ends in 60m!": {
+        "time": 1622152800,
+        "image": "https://i.imgur.com/CVi149d.jpg",
+        "thumbnail": "https://i.imgur.com/gsFXQIZ.png",
+        "intervals": 2073600,
+        "color": "0xc524ff",
+        "description": "Dump your remaining energy!"
+    },
+    "Frostwing ends in 60m!": {
+        "time": 1620424800,
+        "image": "https://i.imgur.com/Mbth61x.jpg",
+        "thumbnail": "https://i.imgur.com/zUHE1F9.png",
+        "intervals": 2073600,
+        "color": "0x24e9ff",
+        "description": "Dump your remaining energy!"
+    },
+    "Astrolab ends in 60m!": {
+        "time": 1620770400,
+        "image": "https://i.imgur.com/VTRkE1Y.jpg",
+        "thumbnail": "https://i.imgur.com/dJdtO1Y.png",
+        "intervals": 2073600,
+        "color": "0xffed24",
+        "description": "Dump your remaining energy!"
+    },
+    "Undead Samurai ends in 60m!": {
+        "time": 1621116000,
+        "image": "https://i.imgur.com/JLAPBXr.jpg",
+        "thumbnail": "https://i.imgur.com/rSqMFiw.png",
+        "intervals": 2073600,
+        "color": "0x71ff24",
+        "description": "Dump your remaining energy!"
+    },
+    "Daily Reset!": {
+        "time": 1620259200,
+        "image": "https://i.imgur.com/658VgtV.jpg",
+        "intervals": 86400,
+        "color": "0xff4f4f",
+        "description": "It's [day]! Today's Blitz Chest is [chest] Chest, containing [runes] runes.",
+        "days": {
+            "Monday": ["Ice", "Frozen and Chilling", "https://i.imgur.com/7u9tBBY.png", "0x00bbff"],
+            "Tuesday": ["Solar", "Dazed and Stunning", "https://i.imgur.com/zV2ghIg.png", "0xffd500"],
+            "Wednesday": ["Viking", "Intelligent, Damage, Wrath, and Swift", "https://i.imgur.com/ERmfBl4.png", "0x945f1e"],
+            "Thursday": ["Nature", "Resist, Helpful, and Vitality", "https://i.imgur.com/dA8mFmq.png", "0x00ff08"],
+            "Friday": ["Valken", "Burning and Ignite", "https://i.imgur.com/x5oE96w.png", "0xff5100"],
+            "Saturday": ["Assassin", "Precise, Splash, and Rage", "https://i.imgur.com/3s5Dlzw.png", "0x9000ff"],
+            "Epic Sunday, request your Rare/Epic heroes": ["Navarre", "Phalanx, Nimble, and Guard", "https://i.imgur.com/Dix0JnV.png", "0x00b585"]
+        }
+    }
+}

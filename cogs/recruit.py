@@ -50,7 +50,7 @@ class Recruit(commands.Cog):
     async def sendNewEmbed(self, ctx):
         # send a new welcome message
         try:
-            if await isAdmin(ctx):
+            if isDev(ctx):
                 welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
                 embed = discord.Embed(
                     title="Welcome to the Raiders discord server!", 
@@ -157,14 +157,19 @@ class Recruit(commands.Cog):
                 return isGuildLeader(m.author) and m.channel == ogChannel
             message = await self.client.wait_for('message', check=whosent, timeout=600)
         except asyncio.TimeoutError:
-            channels = config["channels"]
-            index = config["config"]["nextChannel"]
             openGuilds = 0
             for guild in config["isOpen"]:
                 if config["isOpen"][guild] == "open":
                     openGuilds += 1
             if openGuilds < 2:
                 return await ogChannel.send("All other guilds are closed! Unable to redirect.")
+            channels = config["channels"]
+            for i in range(len(channels)):
+                if channels[list(channels)[i]] == ogChannel.id:
+                    index = i + 1
+                    if index >= len(config["channels"]):
+                        index = 2
+                    break
             while True:
                 nextChannel = list(channels)[index]
                 if config["isOpen"][nextChannel] == "open":
@@ -528,14 +533,35 @@ class Recruit(commands.Cog):
             embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
 
             field = ""
-            emojis = ["🟠", "🟢", "🔵", "🔴", "🟣", "⚫️", "🟤", "⚪️"]
             for guild in range(len(stats)):
-                field += f"{emojis[guild]} {list(stats)[guild]}: {stats[list(stats)[guild]]}\n"
+                field += f"{config['colorEmojis'][list(stats)[guild]]} `{list(stats)[guild]}`: {stats[list(stats)[guild]]}\n"
             embed.add_field(name="** **", value=field)
             await ctx.send(embed=embed)
         except Exception as e:
             channel = self.client.get_channel(config["config"]["errorLogs"])
             await handleException(e, channel)
+
+
+
+    @commands.command()
+    async def rotation(self, ctx):
+        index = config["config"]["nextChannel"]
+        order = []
+        i = index
+        while True:
+            nextChannel = list(config["channels"])[i]
+            if config["isOpen"][nextChannel] == "open":
+                order.append(config["colorEmojis"][nextChannel] + f" `{nextChannel}`")
+            i += 1
+            if i >= len(config["channels"]):
+                i = 2
+            if i == index: break
+
+        embed = discord.Embed(title="Guilds Rotation")
+        embed.add_field(name="Next recruit goes to:", value=order[0], inline=False)
+        embed.add_field(name="Followed by:", value="\n".join(order[1:]), inline=False)
+        embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
+        await ctx.send(embed=embed)
 
 
 
@@ -548,7 +574,6 @@ class Recruit(commands.Cog):
             
             time = str(datetime.utcnow())
             if time[8:10] == "01" and (time[11:16] == "00:00" or time[11:16] == "00:01"):
-            # if time[8:10] == "17" and time[11:16] == "00:40":
                 for guild in config["newMembers"]:
                     config["newMembers"][guild] = 0
                 with open("data/config.json", "w") as f:
@@ -595,6 +620,13 @@ class Recruit(commands.Cog):
         except Exception as e:
             channel = self.client.get_channel(config["config"]["errorLogs"])
             await handleException(e, channel)
+
+
+
+    @commands.Cog.listener()
+    async def on_member_remove(self, member):
+        channel = self.client.get_channel(config["channels"]["General"])
+        await channel.send(f"{member.mention} has left the server... Farewell on your journeys!")
 
 
 

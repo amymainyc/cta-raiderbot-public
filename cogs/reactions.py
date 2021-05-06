@@ -27,7 +27,7 @@ class Reactions(commands.Cog):
     @commands.command()
     async def addNewReactionRole(self, ctx, emoji, role: discord.Role, *desc):
         try:
-            if await isAdmin(ctx):
+            if isDev(ctx):
                 config["reactions"]["reactionRoles"][str(emoji)] = [role.id, " ".join(desc)]
                 with open("data/config.json", "w") as f:
                     json.dump(config, f, indent=4)
@@ -42,7 +42,7 @@ class Reactions(commands.Cog):
     async def sendNewReactionEmbed(self, ctx):
         # send a new reactions message
         try:
-            if await isAdmin(ctx):
+            if isDev(ctx):
                 channel = self.client.get_channel(config["reactions"]["channelID"])
                 embed = discord.Embed(
                     title="Reaction Roles",

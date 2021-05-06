@@ -43,6 +43,7 @@ class Reminders(commands.Cog):
                 embed = discord.Embed(title=event, color=color)
                 embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
                 embed.set_image(url=calendar[event]["image"])
+                await asyncio.sleep(120)
                 if event == "Daily Reset!":
                     days = calendar[event]["days"]
                     day = list(days)[datetime.utcnow().weekday()]
@@ -74,7 +75,7 @@ class Reminders(commands.Cog):
     
     @commands.command()
     async def testEmbeds(self, ctx):
-        if await isAdmin(ctx):
+        if isDev(ctx):
             with open("data/calendar.json") as f:
                 calendar = json.load(f)
             for event in calendar:

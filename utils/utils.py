@@ -46,6 +46,13 @@ def isGuildLeader(user):
 
 
 
+def isDev(ctx):
+    if ctx.author.id == 430079880353546242 or ctx.author.id == 267813665296744450:
+        return True
+    return False
+
+
+
 async def isRecruitee(ctx, user):
     # add a try statement to check for validity
     userRoles = user.roles

@@ -11,6 +11,7 @@ A custom bot made for the Raider's discord with moderation and recruitment featu
 | r.transfer @user	| Sends the user to another channel due to unsuccessful recruitment. `(guild leader only)` |
 | r.closeguild	| Closes guild to new recruits. `(guild leader only)` |
 | r.openguild	| Opens guild to new recruits. `(guild leader only)` |
+| r.rotation	| Returns the guild rotation for new recruits. |
 | r.recruitstats	| Returns the monthly new members counts for each guild. |
 | 🔵 Moderation Commands | |
 | r.purge (n)	| Purges n messages from current channel excluding pinned messages. `(server admin only)` |

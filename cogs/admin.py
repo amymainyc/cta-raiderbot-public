@@ -126,6 +126,11 @@ class Admin(commands.Cog):
             inline=False
         )
         embed.add_field(
+            name="★ **r.rotation**",
+            value="Returns the guild rotation for new recruits",
+            inline=False
+        )
+        embed.add_field(
             name="★ **r.recruitstats**",
             value="Returns the monthly new members counts for each guild",
             inline=False

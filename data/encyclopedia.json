@@ -1,0 +1,3348 @@
+{
+    "Akwa": {
+        "Image": "https://i.imgur.com/VeFdABx.png",
+        "Emoji": "<:akwa:840765673034743819>",
+        "Type": "water",
+        "Job": "brawler",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "48",
+            "HP": "360",
+            "DEF": "20",
+            "DPS": "48",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "200",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Water Energy Ball shoots a ball of energy pushing back opponents and dealing x0.25 damage to each enemy hit. It has a width, so it can miss ground units based on the spawn height of Akwa relative to other heroes.",
+        "SP3": "",
+        "SP4": "Water: 10% Attack Speed",
+        "Special Ability": "Hit Combo, Knock-back",
+        "Target Rune Set": {
+            "Late Freeze Build Runes Sets": "Vitality, Chilling (ideally 11+% freeze chance), and either Swift or Damage.",
+            "Late DPS Build Runes Sets": "Vitality, Damage, and one of the following Swift, Rage, Precise."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "200+% HP (Vitality, Secondaries, Primaries)",
+                "17.5+% Crit Rate or 12.5+% Freeze Rate (Precise or Chilling)",
+                "200+% Atk (Damage, Secondaries)",
+                "50+% Atk Speed (Primaries)",
+                "50+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Alda": {
+        "Image": "https://i.imgur.com/xxhiOh1.png",
+        "Emoji": "<:alda:840765724490072084>",
+        "Type": "fire",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "240",
+            "DEF": "6",
+            "DPS": "38",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "555",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Fire Arrows shoots five arrows each dealing x1 damage to the enemy hit. Each attack has a 10% chance to deal 0.6 ATK*base_aps for 5 seconds.",
+        "SP3": "",
+        "SP4": "Team: 300% Crit Damage",
+        "Special Ability": "Burn, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Late Burning Runes Sets": "Three of Burning, Ignite, Damage, Swift.",
+            "Late DPS Runes Sets": "Three of Damage, Swift, Rage, Precise."
+        },
+        "Target Rune Stats": {
+            "Target Burning Stats": [
+                "20+% Burn Chance (Ignite)",
+                "100+% Burn Duration (Burning, Primaries)",
+                "200+% Atk (Damage, Secondaries)",
+                "35+% Atk Speed (Primaries)",
+                "50+% Attack Range (Secondaries)"
+            ],
+            "Target Crit Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "125+% Crit Damage (Rage, Secondaries)",
+                "300+% Atk (Damage, Secondaries)",
+                "70+% Atk Speed (Primaries)",
+                "50+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Angelica": {
+        "Image": "https://i.imgur.com/QQ0cYAE.png",
+        "Emoji": "<:angelica:840765762527690772>",
+        "Type": "light",
+        "Job": "support",
+        "Gender": "female",
+        "Rarity": "Legendary",
+        "Base Stats": {
+            "ATK": "14",
+            "HP": "500",
+            "DEF": "20",
+            "DPS": "14",
+            "APS": "0.333",
+            "SPEED": "100",
+            "RANGE": "650",
+            "CTK RATE": "0%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Revive has a 50% chance to revive a dead hero and provide a percent of their health back. The health returned is based on her star.",
+        "SP3": "Give a shield to all heroes and Atk up +79% for 20 seconds. The life of the shield is 10% of the caster's life.",
+        "SP4": "Team: 125% HP",
+        "Special Ability": "Auto-Shield, Anti Stun, Anti Poison",
+        "Target Rune Set": {
+            "Runes Sets": "Intelligent - Don\u2019t spend many materials on her."
+        },
+        "Target Rune Stats": {}
+    },
+    "Arcana": {
+        "Image": "https://i.imgur.com/CDmJ5qi.png",
+        "Emoji": "<:arcana:840765813086748762>",
+        "Type": "light",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "320",
+            "DEF": "15",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "540",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Light Arrows shoots five arrows each dealing x1 damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "200% Crit Damage",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Stunning - Don\u2019t spend many materials on her."
+        },
+        "Target Rune Stats": {}
+    },
+    "Atlantus": {
+        "Image": "https://i.imgur.com/FeBkxYW.png",
+        "Emoji": "<:atlantus:840765851904770068>",
+        "Type": "water",
+        "Job": "lancer",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "430",
+            "DEF": "12",
+            "DPS": "40",
+            "APS": "0.4",
+            "SPEED": "140",
+            "RANGE": "220",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Smash Attack jumps and smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Water: 200% Crit Damage",
+        "Special Ability": "Anti Stun, Stun, Crusher",
+        "Target Rune Set": {
+            "Crusher - Hitter Runes Sets": "Swift, Precise, Frenzy",
+            "Late PVP Runes Sets": "Vitality, Damage, then one of Precise, Swift."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Bat": {
+        "Image": "https://i.imgur.com/elkbvwg.png",
+        "Emoji": "<:bat:840765933698023446>",
+        "Type": "dark",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "52",
+            "HP": "220",
+            "DEF": "8",
+            "DPS": "52",
+            "APS": "1.0",
+            "SPEED": "250",
+            "RANGE": "350",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Rapid Darkness shoots three balls each doing 1.65x damage to one target",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Damage, then two of Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {}
+    },
+    "Big Eye": {
+        "Image": "https://i.imgur.com/Dv7CkaJ.png",
+        "Emoji": "<:bigeye:840765965822328892>",
+        "Type": "light",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "25",
+            "HP": "450",
+            "DEF": "8",
+            "DPS": "25",
+            "APS": "1.0",
+            "SPEED": "180",
+            "RANGE": "310",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Rapid Charge shoots three balls each doing 1.65x damage to one target",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Black Beard": {
+        "Image": "https://i.imgur.com/syi7uym.png",
+        "Emoji": "<:blackbeard:840766017251573801>",
+        "Type": "water",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "360",
+            "DEF": "12",
+            "DPS": "45",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "150",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi-Hit attacks three times doing a total of 5x damage to one target",
+        "SP3": "",
+        "SP4": "Water: 400% Def",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Phalanx, Nimble."
+        },
+        "Target Rune Stats": {}
+    },
+    "Blue Fish": {
+        "Image": "https://i.imgur.com/f7oAHPe.png",
+        "Emoji": "<:bluefish:840766117773574174>",
+        "Type": "water",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "310",
+            "DEF": "8",
+            "DPS": "32",
+            "APS": "1.0",
+            "SPEED": "250",
+            "RANGE": "350",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Bubble Stream attacks three times each doing 1.65x damage to one target",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Bugonaut Archer": {
+        "Image": "https://i.imgur.com/vmDBAJN.png",
+        "Emoji": "<:bugonautarcher:840766655427903509>",
+        "Type": "water",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "200",
+            "DEF": "15",
+            "DPS": "28",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "424",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Fire shoots five arrows each dealing x1 damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero. Chilling."
+        },
+        "Target Rune Stats": {}
+    },
+    "Bugonaut Fighter": {
+        "Image": "https://i.imgur.com/1ZeQ61O.png",
+        "Emoji": "<:bugonautfighter:840766172051275826>",
+        "Type": "water",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "240",
+            "DEF": "15",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "120",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks seven times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Bugonaut Giant": {
+        "Image": "https://i.imgur.com/unqxB1n.png",
+        "Emoji": "<:bugonautgiant:840766313814425633>",
+        "Type": "water",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "400",
+            "DEF": "20",
+            "DPS": "35",
+            "APS": "0.5",
+            "SPEED": "100",
+            "RANGE": "160",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing aoe damage with a base radius of 150 dealing a total of 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Bugonaut Spear": {
+        "Image": "https://i.imgur.com/jmY40lU.png",
+        "Emoji": "<:bugonautspear:840766455325786163>",
+        "Type": "water",
+        "Job": "lancer",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "280",
+            "DEF": "15",
+            "DPS": "28",
+            "APS": "0.5",
+            "SPEED": "110",
+            "RANGE": "220",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing Multi-Hit attacks one time (not sure why it\u2019s called multi-hit) attacking all heroes in a line, dealing 5x damage to each enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Bungun": {
+        "Image": "https://i.imgur.com/dVil8xH.png",
+        "Emoji": "<:bungun:840766801227153419>",
+        "Type": "light",
+        "Job": "gunner",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "22",
+            "HP": "270",
+            "DEF": "10",
+            "DPS": "22",
+            "APS": ".83",
+            "SPEED": "150",
+            "RANGE": "420",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Yolky Egg throws a big egg that lands behind the target dealing aoe damage with a base radius of 150 dealing 4.15x damage which is reduced by aoe decay. It also has a 100% chance to blind that makes the blinded target miss 70% of the time. This currently does not hit flying heroes, hopefully will change in the future.",
+        "SP3": "",
+        "SP4": "Light: 400% Atk",
+        "Special Ability": "Blind, Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Swift, Stunning, Dazed."
+        },
+        "Target Rune Stats": {}
+    },
+    "Chaos": {
+        "Image": "https://i.imgur.com/mMrqeh5.png",
+        "Emoji": "<:chaos:840766901062729788>",
+        "Type": "dark",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "80",
+            "HP": "440",
+            "DEF": "20",
+            "DPS": "80",
+            "APS": "0.5",
+            "SPEED": "100",
+            "RANGE": "220",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi-Hit attacks three times dealing aoe damage with a base radius of 150 doing a total of 5x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Dark: 400% Def",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Damage and one of the following Nimble, Precise, Swift, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise) or Dodge Rate (Nimble)",
+                "250+% HP (Vitality, Secondaries)",
+                "400+% Atk (Damage, Primaries, Secondaries)",
+                "50+% APS (Primaries)"
+            ]
+        }
+    },
+    "Circe": {
+        "Image": "https://i.imgur.com/B8iuBzU.png",
+        "Emoji": "<:circe:840766955727618058>",
+        "Type": "dark",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "50",
+            "HP": "250",
+            "DEF": "6",
+            "DPS": "50",
+            "APS": "0.5",
+            "SPEED": "160",
+            "RANGE": "545",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Possess takes control of an enemy hero for a duration that depends on star of Circe, reduced if the opponent has higher star. She targets the 4 farthest back opponents within twice her attack range, and of those 4, it’s random. Possessed heroes cannot crit",
+        "SP3": "",
+        "SP4": "Dark: 100% HP",
+        "Special Ability": "",
+        "Target Rune Set": {},
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "20+% Attack Range (Secondaries) can allow her to possess back line heroes"
+            ]
+        }
+    },
+    "Clawdette": {
+        "Image": "https://i.imgur.com/SYXOkXw.png",
+        "Emoji": "<:clawdette:840766988288655421>",
+        "Type": "water",
+        "Job": "brawler",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "410",
+            "DEF": "18",
+            "DPS": "45",
+            "APS": "1.0",
+            "SPEED": "145",
+            "RANGE": "175",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Snarling Claws attacks attacks 6 times dealing a total of 5x damage.  Each attack has a 20% chance to deal 1.2 ATK*base_aps for 5 seconds.",
+        "SP3": "",
+        "SP4": "Enemies: 50% DMG from Poison",
+        "Special Ability": "Poison, Hit Combo",
+        "Target Rune Set": {
+            "Late Runes Sets": "Vitality, Damage, Swift."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "100+% Attack Range (Secondaries)",
+                "20+% Poison Chance (Poisonous)",
+                "100+% Poison Duration (Blight, Primaries)",
+                "300+% Atk (Damage, Primaries, Secondaries)",
+                "10+% Atk Speed (Primaries)",
+                "150+% HP (Primaries, Secondaries)"
+            ]
+        }
+    },
+    "Dark Hunter": {
+        "Image": "https://i.imgur.com/CWBsu1y.png",
+        "Emoji": "<:darkhunter:840767046106087434>",
+        "Type": "dark",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "52",
+            "HP": "200",
+            "DEF": "6",
+            "DPS": "52",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "590",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Fire shoots five arrows each dealing x1 damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Enemies: 50% Attack Debuff",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Three of Damage, Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% Crit Damage (Rage, 3xPrimaries, Secondaries)",
+                "300+% Atk (Damage,1xPrimaries, Secondaries)",
+                "40+% APS (5xPrimaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Dark Knight": {
+        "Image": "https://i.imgur.com/joR64bG.png",
+        "Emoji": "<:darkknight:840767120945840128>",
+        "Type": "dark",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "70",
+            "HP": "320",
+            "DEF": "15",
+            "DPS": "70",
+            "APS": "1.0",
+            "SPEED": "120",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Enemies: 50% Def Debuff",
+        "Special Ability": "Knock-back",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality, Phalanx, Nimble."
+        },
+        "Target Rune Stats": {}
+    },
+    "Dark Wolf": {
+        "Image": "https://i.imgur.com/LmGjn9e.png",
+        "Emoji": "<:darkwolf:840767174469746728>",
+        "Type": "dark",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "400",
+            "DEF": "10",
+            "DPS": "45",
+            "APS": "0.556",
+            "SPEED": "100",
+            "RANGE": "535",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Dark Wrath attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Team: 25% Def Movement Speed",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Dragon Bot": {
+        "Image": "https://i.imgur.com/i66Jpom.png",
+        "Emoji": "<:dragonbot:840767225241665556>",
+        "Type": "dark",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "44",
+            "HP": "280",
+            "DEF": "12",
+            "DPS": "44",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "430",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Dragon Breath attacks three times dealing a total of 5x damage to the enemy hit and debuffs the opponent\u2019s attack by 50% for 5s",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Damage, then two of Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {}
+    },
+    "Fire Monk": {
+        "Image": "https://i.imgur.com/qJWWLZU.png",
+        "Emoji": "<:firemonk:840767262377771008>",
+        "Type": "fire",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "320",
+            "DEF": "8",
+            "DPS": "54",
+            "APS": "0.83",
+            "SPEED": "160",
+            "RANGE": "510",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Cast attacks three times dealing a total of 5x damage to the enemy hit. Each attack has a 40% chance to deal 1.0 ATK*base_aps for 3 seconds.",
+        "SP3": "",
+        "SP4": "Fire: 100% hp",
+        "Special Ability": "Burn",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Frost Queen": {
+        "Image": "https://i.imgur.com/5ek4t7D.png",
+        "Emoji": "<:frostqueen:840767322549387304>",
+        "Type": "water",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "280",
+            "DEF": "12",
+            "DPS": "28",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "520",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Shot attacks three times dealing a total of 5x damage to the enemy hit. Each attack has a 10% chance to freeze the opponent for 2 seconds.",
+        "SP3": "",
+        "SP4": "Enemies: 100% DMG from Freeze Explode",
+        "Special Ability": "Freeze Explode, Freeze",
+        "Target Rune Set": {
+            "Late Runes Sets": "Chilling, Splash, Stunning or anything with AOE."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "12.5+% Freeze Rate (Chilling)",
+                "50+% Atk Speed (Swift, Primaries, depending on build)",
+                "120+% AOE (Primaries)",
+                "200+% Atk (Damage, Secondaries) or 12.5+% Stun Rate (Stunning)",
+                "60+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Furiosa": {
+        "Image": "https://i.imgur.com/AfbPhx6.png",
+        "Emoji": "<:furiosa:840767369479847946>",
+        "Type": "fire",
+        "Job": "knight",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "60",
+            "HP": "340",
+            "DEF": "14",
+            "DPS": "60",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "150",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "fire: 3% Frenzy Chance",
+        "Special Ability": "Anti Burn, Anti Freeze, Crusher",
+        "Target Rune Set": {
+            "Crusher - Hitter Runes Sets": "Swift, Precise, Frenzy.",
+            "Tank Runes Sets": "Vitality, Phalanx, Nimble."
+        },
+        "Target Rune Stats": {}
+    },
+    "Gladiator": {
+        "Image": "https://i.imgur.com/NMwpbdQ.png",
+        "Emoji": "<:gladiator:840767447727472661>",
+        "Type": "earth",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "42",
+            "HP": "840",
+            "DEF": "25",
+            "DPS": "42",
+            "APS": ".67",
+            "SPEED": "100",
+            "RANGE": "150",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shockwave Stomp smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Earth: 100% HP",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Tank Runes Sets": "Vitality, Guard, Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "200+% Def (Guard, Secondaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "18+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ]
+        }
+    },
+    "Goddess": {
+        "Image": "https://i.imgur.com/Sskz21j.png",
+        "Emoji": "<:goddess:840767534047428649>",
+        "Type": "water",
+        "Job": "support",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "14",
+            "HP": "200",
+            "DEF": "10",
+            "DPS": "14",
+            "APS": "0.5",
+            "SPEED": "140",
+            "RANGE": "520",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Mini Tsunami shoots a wave pushing back opponents and dealing x0.25 damage to each enemy hit. It has a width, so it can miss ground units based on the spawn height of Goddess relative to other heroes, but it\u2019s pretty large, and can even hit flying heroes.",
+        "SP3": "",
+        "SP4": "Water: 100% HP",
+        "Special Ability": "Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Gold Knight": {
+        "Image": "https://i.imgur.com/lo4R6Aq.png",
+        "Emoji": "<:goldknight:840767636777336853>",
+        "Type": "light",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "480",
+            "DEF": "15",
+            "DPS": "40",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Light: 25% Movement Speed",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {}
+    },
+    "Green Faery": {
+        "Image": "https://i.imgur.com/oxcpQbk.png",
+        "Emoji": "<:greenfaery:840767677404545024>",
+        "Type": "earth",
+        "Job": "support",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "20",
+            "HP": "250",
+            "DEF": "14",
+            "DPS": "20",
+            "APS": "0.5",
+            "SPEED": "150",
+            "RANGE": "460",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shield adds a shield similar to knight shield to a random hero. The shield has 15% of Green Faery\u2019s HP. This can be useful in Slay Boss event for survival.",
+        "SP3": "Protects all heroes with a shield absorbing as much damage as the caster's total HP. The shield is more efficient against the same element.",
+        "SP4": "Team: 100% HP",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Groovine": {
+        "Image": "https://i.imgur.com/ybnSCxe.png",
+        "Emoji": "<:groovine:840767731523649566>",
+        "Type": "earth",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "48",
+            "HP": "350",
+            "DEF": "9",
+            "DPS": "48",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "550",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Bee Swarm is a horizontal projectile that moves across the screen slowing opponents hit. The slowdown rate is based on the stars of Groovine. I believe it has a width, so it can miss ground units based on the spawn height of Groovine relative to other heroes.",
+        "SP3": "All the team will do earth elemental damage. fire heroes won't be effected by this spell.",
+        "SP4": "Earth: 400% Atk",
+        "Special Ability": "Slowdown, Crusher",
+        "Target Rune Set": {
+            "Crusher Runes Sets": "Intelligent."
+        },
+        "Target Rune Stats": {}
+    },
+    "Healer Bot": {
+        "Image": "https://i.imgur.com/LASLcYG.png",
+        "Emoji": "<:healerbot:840767815634911252>",
+        "Type": "light",
+        "Job": "support",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "10",
+            "HP": "300",
+            "DEF": "2",
+            "DPS": "10",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "490",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Healing Beam heals an injured hero for 6% of Healer Bot\u2019s HP each second for 5 seconds. It doesn\u2019t specify, but I believe she chooses the hero with the lowest %HP.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Hikari": {
+        "Image": "https://i.imgur.com/BqS2F80.png",
+        "Emoji": "<:hikari:840767868605038593>",
+        "Type": "light",
+        "Job": "samurai",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "525",
+            "DEF": "6",
+            "DPS": "40",
+            "APS": "1.0",
+            "SPEED": "170",
+            "RANGE": "150",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing Hit attacks one hero dealing 5x damage.",
+        "SP3": "",
+        "SP4": "Team: 30% Movement Speed",
+        "Special Ability": "Stun, Evade Splash Damage",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Hooky": {
+        "Image": "https://i.imgur.com/JTJXlaM.png",
+        "Emoji": "<:hooky:840767917519929390>",
+        "Type": "earth",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "460",
+            "DEF": "20",
+            "DPS": "30",
+            "APS": ".83",
+            "SPEED": "125",
+            "RANGE": "450",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Hook Gun grabs a distant hero and pulls them closer. It can affect flying, and make flying heroes temporarily vulnerable to melee heroes. The distance pulled closer depends on the star of Hooky (200/230/260/290/320/350 at 2-7)",
+        "SP3": "",
+        "SP4": "Gunner: 3% Attack Range",
+        "Special Ability": "Anti Knock-back, Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Ice Cube": {
+        "Image": "https://i.imgur.com/hXOME59.png",
+        "Emoji": "<:icecube:840767971311222784>",
+        "Type": "water",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "710",
+            "DEF": "14",
+            "DPS": "45",
+            "APS": ".83",
+            "SPEED": "100",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit. Each hit has a base AOE radius of 150 and a 10% chance to freeze for 2s. Damage is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Team: 400% Def",
+        "Special Ability": "Freeze, Anti Knock-back",
+        "Target Rune Set": {
+            "Tank Runes Sets": "Vitality, Nimble, anything with HP Primaries (Guard and Resist are decent Builds)."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)",
+                "25+% Resist"
+            ]
+        }
+    },
+    "Ice Knight": {
+        "Image": "https://i.imgur.com/c2EBAur.png",
+        "Emoji": "<:iceknight:840768011996233738>",
+        "Type": "water",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "48",
+            "HP": "370",
+            "DEF": "15",
+            "DPS": "48",
+            "APS": "1.0",
+            "SPEED": "135",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit. Each hit has a 10% chance to freeze for 2s.",
+        "SP3": "",
+        "SP4": "Water: 4% Freeze Duration",
+        "Special Ability": "Freeze",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Jasmine": {
+        "Image": "https://i.imgur.com/tzj3EIP.png",
+        "Emoji": "<:jasmine:840768052115013652>",
+        "Type": "fire",
+        "Job": "rogue",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "240",
+            "DEF": "8",
+            "DPS": "45",
+            "APS": "1.0",
+            "SPEED": "200",
+            "RANGE": "150",
+            "CTK RATE": "30%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Dancing Blades attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Fire: 200% Crit Damage",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend many materials on her."
+        },
+        "Target Rune Stats": {}
+    },
+    "Joan of Arc": {
+        "Image": "https://i.imgur.com/BglkItz.png",
+        "Emoji": "<:joanofarc:840768103897890816>",
+        "Type": "light",
+        "Job": "lancer",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "500",
+            "DEF": "12",
+            "DPS": "28",
+            "APS": ".67",
+            "SPEED": "140",
+            "RANGE": "220",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing Multi-Hit attacks one time (not sure why it\u2019s called multi-hit) attacking all heroes in a line, dealing 5x damage to each enemy hit.",
+        "SP3": "",
+        "SP4": "Light: 400% Def",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Kage": {
+        "Image": "https://i.imgur.com/c9AAWPV.png",
+        "Emoji": "<:kage:840768142652473384>",
+        "Type": "dark",
+        "Job": "samurai",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "75",
+            "HP": "260",
+            "DEF": "6",
+            "DPS": "75",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "170",
+            "CTK RATE": "25%",
+            "CTK DMG": "200%"
+        },
+        "SP2": "Piercing Hit attacks one hero dealing 5x damage",
+        "SP3": "",
+        "SP4": "universal 50% HP Debuff",
+        "Special Ability": "Knock-back, Evade Splash Damage",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality - Don\u2019t spend many materials on this hero unless you want to spend a lot."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "250+% HP (Vitality, Primaries, secondaries)",
+                "200+% Atk (Damage, Primaries, secondaries)",
+                "100+% Crit Damage (Primaries, secondaries)",
+                "40+% Attack Speed (Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "<10% Movement Speed, ideally 0% (Secondaries)",
+                ">10% more Attack Range than tank (Secondaries)"
+            ]
+        }
+    },
+    "Kasai": {
+        "Image": "https://i.imgur.com/pAo0qO6.png",
+        "Emoji": "<:kasai:840768187573338132>",
+        "Type": "fire",
+        "Job": "samurai",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "62",
+            "HP": "220",
+            "DEF": "6",
+            "DPS": "62",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "170",
+            "CTK RATE": "30%",
+            "CTK DMG": "200%"
+        },
+        "SP2": "Piercing Hit attacks one hero dealing 5x damage",
+        "SP3": "",
+        "SP4": "Fire: 400% ATK",
+        "Special Ability": "Knock-back, Evade Splash Damage",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "250+% HP (Vitality, Primaries, secondaries)",
+                "200+% Atk (Damage, Primaries, secondaries)",
+                "100+% Crit Damage (Primaries, secondaries)",
+                "40+% Attack Speed (Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "<10% Movement Speed, ideally 0% (Secondaries)",
+                ">10% more Attack Range than tank (Secondaries)"
+            ]
+        }
+    },
+    "Kasumi": {
+        "Image": "https://i.imgur.com/Ju0QhPB.png",
+        "Emoji": "<:kasumi:840768234680090635>",
+        "Type": "dark",
+        "Job": "rogue",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "240",
+            "DEF": "8",
+            "DPS": "38",
+            "APS": "1.0",
+            "SPEED": "220",
+            "RANGE": "120",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Assassination teleports behind a hero and attacks 5 times 1x each time. This can happen every 8s. I\u2019m not sure how the target is chosen.",
+        "SP3": "",
+        "SP4": "Enemies: 10% APS Debuff",
+        "Special Ability": "Knock-back, Evade Splash Damage",
+        "Target Rune Set": {
+            "PVP Runes Sets": "Vitality, Nimble - Don\u2019t spend many materials on this hero unless she\u2019s 7 star."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Dodge Rate (Nimble)",
+                "650+% HP (Vitality, Primaries)",
+                "200+% Atk (Damage, Secondaries) or 12.5+% Stun Rate (Stunning) or 25+% Resist"
+            ]
+        }
+    },
+    "Krouki": {
+        "Image": "https://i.imgur.com/qci0AbB.png",
+        "Emoji": "<:krouki:840768324865490974>",
+        "Type": "earth",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "280",
+            "DEF": "10",
+            "DPS": "38",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "490",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoot Big Bullet attacks one hero for 4.15x damage.",
+        "SP3": "",
+        "SP4": "Earth: 200% Crit Damage",
+        "Special Ability": "Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Krunk": {
+        "Image": "https://i.imgur.com/xyFoTbu.png",
+        "Emoji": "<:krunk:840768392234926101>",
+        "Type": "light",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "600",
+            "DEF": "14",
+            "DPS": "28",
+            "APS": ".83",
+            "SPEED": "120",
+            "RANGE": "410",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoot Big Laser attacks one hero for 4.15x damage.",
+        "SP3": "",
+        "SP4": "Light: 400% Atk",
+        "Special Ability": "Anti Knock-back, Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Leaf Blade": {
+        "Image": "https://i.imgur.com/GSvdW4l.png",
+        "Emoji": "<:leafblade:840768435814006784>",
+        "Type": "earth",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "50",
+            "HP": "370",
+            "DEF": "16",
+            "DPS": "50",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "150",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Team: 400% Def",
+        "Special Ability": "Auto Shield, Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Phalanx, Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "250+% Knight Shield HP (Phalanx)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ]
+        }
+    },
+    "Light Knight": {
+        "Image": "https://i.imgur.com/NpjAihb.png",
+        "Emoji": "<:lightknight:840768610799452170>",
+        "Type": "light",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "25",
+            "HP": "350",
+            "DEF": "15",
+            "DPS": "25",
+            "APS": "1.0",
+            "SPEED": "220",
+            "RANGE": "120",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks seven times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Luka": {
+        "Image": "https://i.imgur.com/eBIVH7U.png",
+        "Emoji": "<:luka:840769463057776662>",
+        "Type": "water",
+        "Job": "rogue",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "37",
+            "HP": "240",
+            "DEF": "8",
+            "DPS": "37",
+            "APS": "1.0",
+            "SPEED": "220",
+            "RANGE": "120",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks seven times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Water: 25% movement speed",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Lycan": {
+        "Image": "https://i.imgur.com/ZfVkPm9.png",
+        "Emoji": "<:lycan:840769507630645298>",
+        "Type": "earth",
+        "Job": "brawler",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "500",
+            "DEF": "18",
+            "DPS": "45",
+            "APS": "1.0",
+            "SPEED": "145",
+            "RANGE": "190",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit. Each hit has a 100% chance (can be resisted) to cast wounded on the target. Wounded increases the damage taken of the target (before def is applied) by 50% at 2 star to 100% at 7 star and lasts 3s",
+        "SP3": "Send a pack of wolves which will give health to random heroes when damaging the enemies.",
+        "SP4": "Earth: 10% APS",
+        "Special Ability": "Wounded, Life Steal, Hit Combo",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Nimble, Resist, Swift."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "250+% HP (Vitality, Secondaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "25+% Resist (Resist)",
+                "70+% APS (Primaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Magmus": {
+        "Image": "https://i.imgur.com/IbYuejx.png",
+        "Emoji": "<:magmus:840769543268728902>",
+        "Type": "fire",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "65",
+            "HP": "520",
+            "DEF": "18",
+            "DPS": "65",
+            "APS": "0.5",
+            "SPEED": "100",
+            "RANGE": "220",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi-Hit attacks three times dealing aoe damage with a base radius of 150 doing a total of 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Fire: 400% Def",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise) or Dodge Rate (Nimble)",
+                "250+% HP (Vitality, Secondaries)",
+                "400+% Atk (Damage, Primaries, Secondaries)",
+                "30+% APS (Primaries)",
+                "50+% AOE (Primaries) - need about 2x the aoe as attack range",
+                "20+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Manta": {
+        "Image": "https://i.imgur.com/VVXUB3h.png",
+        "Emoji": "<:manta:840769587573293107>",
+        "Type": "water",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "350",
+            "DEF": "8",
+            "DPS": "45",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "410",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Water Bubble creates an aoe orb originating at Manta\u2019s target dealing 0.2x damage with an aoe decay to all enemies hit, debuffing the amount of healing they recieve for 15 seconds. At 2",
+        "SP3": "",
+        "SP4": "Enemies: 100% AOE Damage Debuff",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Late Runes Sets": "Swift, Chilling, Stunning."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "12.5+% Freeze Rate (Chilling)",
+                "50+% Atk Speed (Swift, Primaries, depending on build)",
+                "120+% AOE (Primaries)",
+                "200+% Atk (Damage, Secondaries) or 12.5+% Stun Rate (Stunning)",
+                "90+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Mecha Valken": {
+        "Image": "https://i.imgur.com/hTDOHFa.png",
+        "Emoji": "<:mechavalken:840769682532466719>",
+        "Type": "fire",
+        "Job": "brawler",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "65",
+            "HP": "360",
+            "DEF": "20",
+            "DPS": "65",
+            "APS": ".83",
+            "SPEED": "140",
+            "RANGE": "180",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Big Boom is an aoe attack dealing aoe damage with a base radius of 300 dealing 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Fire: 400% Def",
+        "Special Ability": "Anti Knock-back, Hit Combo",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {}
+    },
+    "Merlinus": {
+        "Image": "https://i.imgur.com/ztaYbRn.png",
+        "Emoji": "<:merlinus:840769742532116500>",
+        "Type": "light",
+        "Job": "support",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "14",
+            "HP": "270",
+            "DEF": "12",
+            "DPS": "21",
+            "APS": ".67",
+            "SPEED": "100",
+            "RANGE": "550",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Casts a spell which will heal an injured hero for 100% of the Caster's total HP and dispel all negative effects",
+        "SP3": "",
+        "SP4": "Light: +125% HP",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Intelligent (for slay boss), Vitality, Swift."
+        },
+        "Target Rune Stats": {}
+    },
+    "Misty": {
+        "Image": "https://i.imgur.com/nchdmVA.png",
+        "Emoji": "<:misty:840769839349235762>",
+        "Type": "earth",
+        "Job": "gunner",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "20",
+            "HP": "280",
+            "DEF": "8",
+            "DPS": "20",
+            "APS": ".83",
+            "SPEED": "150",
+            "RANGE": "410",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots a poisonous ball that lands behind the target dealing aoe damage with a base radius of 150 dealing 4.15x damage which is reduced by aoe decay. Each enemy hit has a 30% chance to deal 1.2 ATK*base_aps for 5 seconds.",
+        "SP3": "",
+        "SP4": "Earth: +400% Attack",
+        "Special Ability": "Posion, Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Damage, then two of Swift, Precise, Rage, Poisonous, Blight."
+        },
+        "Target Rune Stats": {
+            "Target Crit Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "150+% Crit Damage (Rage, Secondaries)",
+                "200+% Atk (Damage, Secondaries)",
+                "70+% APS (8xPrimaries)",
+                "30+% AOE (1xPrimaries)",
+                "96+% Attack Range (Secondaries)"
+            ],
+            "Target Poison Stats": [
+                "20+% Poison Chance (Poisonous)",
+                "90+% Poison Duration (Blight, 2-3xPrimaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "50+% APS (5-6xPrimaries)",
+                "30+% AOE (1xPrimaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Mizu": {
+        "Image": "https://i.imgur.com/XvIEK2J.png",
+        "Emoji": "<:mizu:840769880864194580>",
+        "Type": "water",
+        "Job": "samurai",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "56",
+            "HP": "260",
+            "DEF": "8",
+            "DPS": "56",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "170",
+            "CTK RATE": "25%",
+            "CTK DMG": "200%"
+        },
+        "SP2": "Piercing Hit attacks one hero dealing 5x damage",
+        "SP3": "",
+        "SP4": "Water: 400% ATK",
+        "Special Ability": "Evade Splash Damage",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Monki King": {
+        "Image": "https://i.imgur.com/sOvFkWz.png",
+        "Emoji": "<:monkiking:840769917107437589>",
+        "Type": "fire",
+        "Job": "lancer",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "210",
+            "DEF": "8",
+            "DPS": "38",
+            "APS": "1.0",
+            "SPEED": "180",
+            "RANGE": "320",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Combo Attack is 7 quick aoe attacks dealing aoe damage with a base radius of 300 dealing a total of 5x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Fire: 10% APS",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Late Runes Sets": "Swift, Splash, Dazed."
+        },
+        "Target Rune Stats": {
+            "Target Perma-Stun Stats": [
+                "110+% Stun Duration (Dazed, 3xPrimaries)",
+                "57.5+% APS (Swift, 4-5xPrimaries)",
+                "50+% AOE (Splash, 1-2xPrimaries)",
+                "48+% Attack Range (Secondaries)"
+            ],
+            "Target Backline Stun Stats": [
+                "90+% Stun Duration (Dazed, 2xPrimaries - can do more AOE instead of APS primaries to hit farther back heroes)",
+                "17.5+% APS (Swift)",
+                "235+% AOE (Splash, 7xPrimaries - hits 750 ranged heroes)",
+                "48+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Monki Merry": {
+        "Image": "https://i.imgur.com/H7Bwl6Q.png",
+        "Emoji": "<:monkimerry:840769964276449330>",
+        "Type": "fire",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "42",
+            "HP": "420",
+            "DEF": "10",
+            "DPS": "42",
+            "APS": ".83",
+            "SPEED": "140",
+            "RANGE": "480",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Magic Gifts gives a random buff, either Atk up 100%, Atk Speed up 100%, or Dodge up 50%, to three heroes (buffs can be different). Atk up 100% is really 2x, it doesn\u2019t add to runes/auras. Cannot buff self. At 2 stars, the buffs last 3.5s, and increase 0.5s per star up to 6s at 7 stars.",
+        "SP3": "Gift giving random buffs in an arena. Randomly try to apply: Atk up: +300% for 6 seconds. Atk speed up: +300% for 6 seconds. Ctk dmg up: +2900% for 6 seconds.",
+        "SP4": "Team: 6% Resist Chance",
+        "Special Ability": "Burn",
+        "Target Rune Set": {
+            "Late Runes Sets": "Swift, Frenzy, then 3 random runes with APS primaries."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "12.5+% Frenzy Chance (Frenzy)",
+                "100+% APS (9xPrimaries)",
+                "70+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Monki Mortar": {
+        "Image": "https://i.imgur.com/1mGQMNN.png",
+        "Emoji": "<:monkimortar:840770020585766992>",
+        "Type": "dark",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "230",
+            "DEF": "6",
+            "DPS": "35",
+            "APS": ".83",
+            "SPEED": "170",
+            "RANGE": "405",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots a big bomb that lands behind the target dealing aoe damage with a base radius of 150 dealing 4.15x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Dark: 400% ATK",
+        "Special Ability": "Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Damage, then two of Swift, Rage, or Precise Sets."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "200+% Crit Damage (Rage, Primaries, Secondaries)",
+                "300+% Atk (Damage, Primaries, Secondaries)",
+                "50+% Atk Speed (Primaries)",
+                "30+% AOE (Primaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Monki Roboti": {
+        "Image": "https://i.imgur.com/mQzoWOe.png",
+        "Emoji": "<:monkiroboti:840770117075730453>",
+        "Type": "light",
+        "Job": "brawler",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "50",
+            "HP": "450",
+            "DEF": "20",
+            "DPS": "50",
+            "APS": "0.77",
+            "SPEED": "150",
+            "RANGE": "165",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Big boom smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Team: 400% ATK",
+        "Special Ability": "Stun, Anti Knock-back, Hit Combo",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "100+% Crit Damage (Secondaries)",
+                "150+% Atk (Damage, Secondaries)",
+                "80+% Atk Speed (Primaries)",
+                "200+% HP (Vitality, Primaries)",
+                "48+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Musashi": {
+        "Image": "https://i.imgur.com/I0qeB05.png",
+        "Emoji": "<:musashi:840770171617804298>",
+        "Type": "earth",
+        "Job": "samurai",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "50",
+            "HP": "300",
+            "DEF": "8",
+            "DPS": "50",
+            "APS": "1.0",
+            "SPEED": "170",
+            "RANGE": "150",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing Hit attacks one hero dealing 5x damage",
+        "SP3": "",
+        "SP4": "Earth: 25% Movement Speed",
+        "Special Ability": "Evade Splash Damage",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Namida": {
+        "Image": "https://i.imgur.com/9yPHTS7.png",
+        "Emoji": "<:namida:840770230824992808>",
+        "Type": "water",
+        "Job": "gunner",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "25",
+            "HP": "320",
+            "DEF": "6",
+            "DPS": "25",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "415",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Bubble Rockets shoots a missile at each of the three farthest back opponent heroes dealing 1.08x damage per missile. Each hero hit will have slowdown applied to them, slowing their movement speed, aps, and any timed sp2s for 5s. The amount slowed down is based on stars. It starts with a 0.6 multiplier at 2, and decreases by 0.05 for every above that.",
+        "SP3": "",
+        "SP4": "Water: 200% ATK Debuff",
+        "Special Ability": "Slowdown, Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Swift, Chilling, Stunning - Splash if you don\u2019t have decent Stunning runes."
+        },
+        "Target Rune Stats": {
+            "Target Solo Crowd Control Stats":[
+                "12.5+% Freeze Rate (Chilling)",
+                "90+% Atk Speed (Swift, Primaries)",
+                "30+% AOE (Primaries)",
+                "12.5+% Stun Rate (Stunning)",
+                "50+% Attack Range (Secondaries)"
+            ],
+            "Target Freeze Explosion Stats": [
+                "12.5+% Freeze Rate (Chilling)",
+                "70+% Atk Speed (Swift, 6-7xPrimaries)",
+                "60+% AOE (2-3xPrimaries)",
+                "200+% Atk (Damage, Secondaries) or 12.5+% Stun Rate (Stunning)",
+                "50+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Natura": {
+        "Image": "https://i.imgur.com/DMTvLWg.png",
+        "Emoji": "<:natura:840770280153940000>",
+        "Type": "earth",
+        "Job": "lancer",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "34",
+            "HP": "440",
+            "DEF": "12",
+            "DPS": "34",
+            "APS": ".67",
+            "SPEED": "140",
+            "RANGE": "240",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing attacks one time attacking all heroes in a line with a fixed aoe radius of 300, dealing 5x damage to each enemy hit.",
+        "SP3": "",
+        "SP4": "Earth: 400% Def",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Necromancer": {
+        "Image": "https://i.imgur.com/lMxOTeq.png",
+        "Emoji": "<:necromancer:840770321618305034>",
+        "Type": "dark",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "250",
+            "DEF": "15",
+            "DPS": "38",
+            "APS": ".67",
+            "SPEED": "130",
+            "RANGE": "605",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Summon Skeletons summons either a Skeleton Infantry, Skeleton Archer, Skeleton Giant, and Chaos every 10s. His current rates of summoning are 10 in 21 will be Skeleton Archers, 6 in 21 will be Skeleton Infantry, 4 in 21 will be Skeleton Giants, and 1 in 21 will be Chaos. If Chaos is summoned, his team buff does not get added.",
+        "SP3": "",
+        "SP4": "Skeletons: 200% HP/ATK/Def",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise) or Dodge Rate (Nimble)",
+                "250+% HP (Vitality, Secondaries)",
+                "400+% Atk (Damage, Primaries, Secondaries)",
+                "30+% APS (Primaries)",
+                "50+% AOE (Primaries) - need about 2x the aoe as attack range",
+                "20+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Neko": {
+        "Image": "https://i.imgur.com/D4174uX.png",
+        "Emoji": "<:neko:840770353537089597>",
+        "Type": "dark",
+        "Job": "brawler",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "80",
+            "HP": "300",
+            "DEF": "20",
+            "DPS": "80",
+            "APS": "1.0",
+            "SPEED": "180",
+            "RANGE": "175",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Neko combo attacks one hero 5 times dealing 1x damage each hit. Neko\u2019s combo counter increases with each hit, but all hits use the combo at the start of the sp2.",
+        "SP3": "",
+        "SP4": "Dark: 25% Movement Speed",
+        "Special Ability": "Hit Combo",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "100+% Crit Damage (Secondaries)",
+                "150+% Atk (Damage, Secondaries)",
+                "80+% Atk Speed (Primaries)",
+                "200+% HP (Vitality, Primaries)",
+                "48+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Oceana": {
+        "Image": "https://i.imgur.com/mu45LHI.png",
+        "Emoji": "<:oceana:840770402803253278>",
+        "Type": "water",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "360",
+            "DEF": "8",
+            "DPS": "40",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "480",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multicast attacks three times for a total of 5x damage to one opponent.",
+        "SP3": "",
+        "SP4": "Water: 100% HP",
+        "Special Ability": "Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "One Eye": {
+        "Image": "https://i.imgur.com/J8QQAGE.png",
+        "Emoji": "<:oneeye:840770461864165386>",
+        "Type": "light",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "480",
+            "DEF": "8",
+            "DPS": "32",
+            "APS": "1.0",
+            "SPEED": "220",
+            "RANGE": "120",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Ninja storm attacks 5 times dealing 1x per hit to one opponent.",
+        "SP3": "",
+        "SP4": "Light: 10% APS",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Crusher - Hitter Runes Sets": "Swift, Precise, Frenzy.",
+            "Late Buffer/DPS Runes Sets": "Vitality, then two of Swift, Damage, Rage, Precise."
+        },
+        "Target Rune Stats": {}
+    },
+    "Onyx": {
+        "Image": "https://i.imgur.com/MuXiMun.png",
+        "Emoji": "<:onyx:840770501478449162>",
+        "Type": "dark",
+        "Job": "lancer",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "54",
+            "HP": "300",
+            "DEF": "12",
+            "DPS": "54",
+            "APS": "0.5",
+            "SPEED": "150",
+            "RANGE": "250",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Smash Attack jumps and smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Team: 400% Atk",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality for survival, Damage then one of Nimble, Swift, Rage, or Precise Sets."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "350+% HP (Vitality, Secondaries)",
+                "200+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Ornok": {
+        "Image": "https://i.imgur.com/CBgyUvk.png",
+        "Emoji": "<:ornok:840770570861543460>",
+        "Type": "dark",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Legendary",
+        "Base Stats": {
+            "ATK": "64",
+            "HP": "500",
+            "DEF": "35",
+            "DPS": "64",
+            "APS": ".83",
+            "SPEED": "110",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shield Power Force pushes back nearby heroes and deals aoe damage with a base radius of 300 dealing 5x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Team: 300% Knight Shield HP",
+        "Special Ability": "Knock-back, Blind, Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Nimble, and one of Guard, Phalanx."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "250+% Knight Shield HP (Phalanx)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ]
+        }
+    },
+    "Paladin": {
+        "Image": "https://i.imgur.com/A9zWrqD.png",
+        "Emoji": "<:paladin:840770672581673000>",
+        "Type": "light",
+        "Job": "knight",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "550",
+            "DEF": "40",
+            "DPS": "35",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "150",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Angel Barrier creates a dome for 8s healing everyone inside for 1% of Paladin\u2019s Max HP each second.",
+        "SP3": "",
+        "SP4": "Team: 25% less duration to negative effects",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality two of Phalanx, Guard, Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "250+% Knight Shield HP (Phalanx)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ]
+        }
+    },
+    "Petunia": {
+        "Image": "https://i.imgur.com/DwYsIUx.png",
+        "Emoji": "<:petunia:840770982402457620>",
+        "Type": "earth",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "300",
+            "DEF": "16",
+            "DPS": "45",
+            "APS": "0.5",
+            "SPEED": "180",
+            "RANGE": "405",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Every 6s, turns a random hero into a frog, removing that heroes def and preventing it from attacking. The duration of the frog is 7s plus 1s per star above 2 star.",
+        "SP3": "",
+        "SP4": "Team: 500% Def",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Pinky": {
+        "Image": "https://i.imgur.com/mQMPk26.png",
+        "Emoji": "<:pinky:840771027218464779>",
+        "Type": "earth",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "42",
+            "HP": "200",
+            "DEF": "12",
+            "DPS": "42",
+            "APS": "1.0",
+            "SPEED": "230",
+            "RANGE": "120",
+            "CTK RATE": "35%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks 4 times to one opponent for a total of 5x damage",
+        "SP3": "",
+        "SP4": "Rogue: 200% Atk/HP/Def",
+        "Special Ability": "Extra Gold, Evade, Lifesteal",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Pirato": {
+        "Image": "https://i.imgur.com/b5GwoJ6.png",
+        "Emoji": "<:pirato:840771060394623006>",
+        "Type": "water",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "28",
+            "HP": "250",
+            "DEF": "6",
+            "DPS": "28",
+            "APS": ".83",
+            "SPEED": "180",
+            "RANGE": "420",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots a big bomb that lands behind the target dealing aoe damage with a base radius of 150 dealing 4.15x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Water: 400% Atk",
+        "Special Ability": "Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Freeze Build Runes Sets": "Chilling, Swift, Precise."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "200+% Crit Damage (Rage, Primaries, Secondaries)",
+                "300+% Atk (Damage, Primaries, Secondaries)",
+                "50+% Atk Speed (Primaries)",
+                "30+% AOE (Primaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "PumpKing": {
+        "Image": "https://i.imgur.com/KbxO0tb.png",
+        "Emoji": "<:pumpking:840771089490903051>",
+        "Type": "earth",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "550",
+            "DEF": "20",
+            "DPS": "40",
+            "APS": ".83",
+            "SPEED": "100",
+            "RANGE": "220",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Poisonous Spurt is a spew attack dealing aoe damage with a base radius of 440 dealing 5x damage which is reduced by aoe decay. Each enemy hit has a 30% chance to deal 1.2 ATK*base_aps for 5 seconds. This attack appears to be unidirectional, meaning it won\u2019t hit opponents behind the attack.",
+        "SP3": "",
+        "SP4": "Team: 50% DMG from Poison",
+        "Special Ability": "Poison, Anti Knock-back",
+        "Target Rune Set": {
+            "Late PVP Runes Sets": "Vitality and Damage, then one of the following Precise, Swift, Rage, Poisonous, Blight."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "20+% Poison Chance (Poisonous)",
+                "300+% HP (Vitality, 1xPrimaries, Secondaries)",
+                "350+% Atk (Damage, 2-3xPrimaries, Secondaries)",
+                "120+% AOE (4-5xPrimaries)",
+                "72+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Ra": {
+        "Image": "https://i.imgur.com/QB1JucG.png",
+        "Emoji": "<:ra:840771188048527362>",
+        "Type": "light",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "190",
+            "DEF": "15",
+            "DPS": "38",
+            "APS": ".67",
+            "SPEED": "130",
+            "RANGE": "350",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Mini-Sand Storm creates a wave of sand to push back opponent heroes and deal 0.25x damage to each hit. It has a width, so it can miss ground units based on the spawn height of Ra relative to other heroes, but it\u2019s pretty large, and can even hit flying heroes.",
+        "SP3": "",
+        "SP4": "Magician: 200% HP/Atk/Def",
+        "Special Ability": "Knock-back, Summon on Death",
+        "Target Rune Set": {
+            "Runes Sets": "Stunning optional - Don’t spend many materials on this hero."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)",
+                "25+% Resist"
+            ]
+        }
+    },
+    "Red": {
+        "Image": "https://i.imgur.com/4yz9v84.png",
+        "Emoji": "<:red:840771216926441492>",
+        "Type": "fire",
+        "Job": "gunner",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "280",
+            "DEF": "14",
+            "DPS": "45",
+            "APS": ".83",
+            "SPEED": "170",
+            "RANGE": "440",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots a Burning Phased ray that deals 4.15x damage. It has an increased crit chance against burning heroes 5% at 2 star, gaining 5% per star above that.",
+        "SP3": "",
+        "SP4": "Self: 200% Atk per hero with the Burn ability on the front of their card (not ignite runes)",
+        "Special Ability": "Burn",
+        "Target Rune Set": {
+            "Runes Sets": "Three of Damage, Swift, Rage, or Precise Sets."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "200+% Crit Damage (Rage, Primaries, Secondaries)",
+                "300+% Atk (Damage, Primaries, Secondaries)",
+                "60+% Atk Speed (Primaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Robin Hood": {
+        "Image": "https://i.imgur.com/cmlQyn0.png",
+        "Emoji": "<:robinhood:840771243787157504>",
+        "Type": "earth",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "270",
+            "DEF": "6",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "590",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Fire shoots five arrows each dealing x1 damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "Earth: 200% Crit Damage",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Rufus": {
+        "Image": "https://i.imgur.com/tiM9aSs.png",
+        "Emoji": "<:rufus:840771293023961099>",
+        "Type": "water",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "240",
+            "DEF": "10",
+            "DPS": "40",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "480",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Large Caliber attacks one hero for 4.15x damage.",
+        "SP3": "",
+        "SP4": "Water: 200% Crit Damage",
+        "Special Ability": "Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Damage, then two of Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "125+% Crit Damage (Rage, Secondaries)",
+                "325+% Atk (Damage, 1xPrimaries, Secondaries)",
+                "80+% Attack Speed (8xPrimaries)",
+                "84+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Scud": {
+        "Image": "https://i.imgur.com/Vp7JPXK.png",
+        "Emoji": "<:scud:840771329518731296>",
+        "Type": "fire",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "210",
+            "DEF": "8",
+            "DPS": "35",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "400",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots an explosive that lands behind the target dealing aoe damage with a base radius of 150 dealing 4.15x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Team: 400% Atk",
+        "Special Ability": "Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Three of Damage, Swift, Rage, or Precise Sets."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "200+% Crit Damage (Rage, Primaries, Secondaries)",
+                "300+% Atk (Damage, Primaries, Secondaries)",
+                "50+% Atk Speed (Primaries)",
+                "30+% AOE (Primaries)",
+                "96+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Ser Shu": {
+        "Image": "https://i.imgur.com/twXARfh.png",
+        "Emoji": "<:sershu:840771400684142602>",
+        "Type": "light",
+        "Job": "lancer",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "430",
+            "DEF": "32",
+            "DPS": "30",
+            "APS": "0.714",
+            "SPEED": "140",
+            "RANGE": "340",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Spear Charge jousts the opponent dealing aoe damage with a base radius of 400 dealing 5x damage which is reduced by aoe decay. Each opponent hit gets an attack debuff for 4s and is stunned for 2s. The attack debuff starts at 10%, and increases for higher stars.",
+        "SP3": "",
+        "SP4": "Lancer: 3% Atk Range",
+        "Special Ability": "Stun, Anti-Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality and two of Swift, Splash, Dazed."
+        },
+        "Target Rune Stats": {
+            "Target Damage Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "150+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ],
+            "Target Perma-Stun Stats": [
+                "110+% Stun Duration (Dazed, 3xPrimaries)",
+                "67.5+% APS (Swift, 5xPrimaries)",
+                "50+% AOE (Splash, 1xPrimaries)",
+                "48+% Attack Range (Secondaries)"
+            ],
+            "Target Backline Stun Stats": [
+                "110+% Stun Duration (Dazed, 3xPrimaries)",
+                "37.5+% APS (Swift)",
+                "200+% AOE (Splash, 6xPrimaries)",
+                "48+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Seraph": {
+        "Image": "https://i.imgur.com/Y1hAPuJ.png",
+        "Emoji": "<:seraph:840771434623402015>",
+        "Type": "light",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "250",
+            "DEF": "6",
+            "DPS": "38",
+            "APS": "1",
+            "SPEED": "120",
+            "RANGE": "520",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Fire shoots dark or light arrows (depending on which is most effective against her target) each dealing x1 damage to the enemy hit.",
+        "SP3": "Increase Critical Damage of Light and Dark heroes for 10 seconds.",
+        "SP4": "Ranger: 400% Attack",
+        "Special Ability": "Dark and Light, Crusher",
+        "Target Rune Set": {
+            "Runes Sets": "Three of Damage, Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% Crit Damage (Rage, 3xPrimaries, Secondaries)",
+                "300+% Atk (Damage,1xPrimaries, Secondaries)",
+                "40+% APS (5xPrimaries)",
+                "50+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Shelly": {
+        "Image": "https://i.imgur.com/i3cRmD3.png",
+        "Emoji": "<:shelly:840771461999231027>",
+        "Type": "fire",
+        "Job": "barbarian",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "55",
+            "HP": "700",
+            "DEF": "25",
+            "DPS": "48",
+            "APS": ".83",
+            "SPEED": "100",
+            "RANGE": "170",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Heavy Blow smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay. The amount of damage done creates a shield to protect Shelly. Each hero hit has a 30% chance to be stunned for 2s. The shield accumulates health up to a maximum of 30% of Shelly\u2019s total HP.",
+        "SP3": "",
+        "SP4": "Enemies: 100% Crit Damage Debuff",
+        "Special Ability": "Burn, Explodes upon Death, Anti Knock-back",
+        "Target Rune Set": {
+            "Tank Runes Sets": "Vitality, Nimble and either Guard, Resist, Damage or Swift."
+        },
+        "Target Rune Stats": {
+            "Target Tank Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "200+% Def (Guard, Secondaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "18+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ],
+            "Target Smasher Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "60+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Siegfried": {
+        "Image": "https://i.imgur.com/tOxduEB.png",
+        "Emoji": "<:siegfried:840771494095355924>",
+        "Type": "light",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "780",
+            "DEF": "14",
+            "DPS": "32",
+            "APS": ".83",
+            "SPEED": "125",
+            "RANGE": "200",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shockwave Stomp smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "Self: 200% HP",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Late PVP Runes Sets": "Vitality and Damage then one of Rage, Precise, Swift."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Skeleton Giant": {
+        "Image": "https://i.imgur.com/cj7PbZ5.png",
+        "Emoji": "<:skeletongiant:840771546943062026>",
+        "Type": "dark",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "380",
+            "DEF": "20",
+            "DPS": "45",
+            "APS": "0.5",
+            "SPEED": "100",
+            "RANGE": "220",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shockwave Stomp smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Damage Then Vitality sets then one of Swift, Rage, or Precise Sets. Splash set if you are desperate for AOE."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Skeleton Infantry": {
+        "Image": "https://i.imgur.com/mw5AgDk.png",
+        "Emoji": "<:skeletoninfantry:840771584137625610>",
+        "Type": "dark",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "300",
+            "DEF": "6",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "200",
+            "RANGE": "160",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks seven times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Skeleton Archer": {
+        "Image": "https://i.imgur.com/jPRRnwq.png",
+        "Emoji": "<:skeletonranger:840771623291977748>",
+        "Type": "dark",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "200",
+            "DEF": "6",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "200",
+            "RANGE": "160",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks five times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Snowman": {
+        "Image": "https://i.imgur.com/HGkkjPv.png",
+        "Emoji": "<:snowman:840771678992465962>",
+        "Type": "water",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "280",
+            "DEF": "11",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "140",
+            "RANGE": "400",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Creates a giant snowball that rolls across the field, dealing 0.5x damage to everyone and lowering the def to all enemies hit",
+        "SP3": "",
+        "SP4": "Water: 400% ATK",
+        "Special Ability": "Snowman's curse, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Late Freeze Build Runes Sets": "Chilling, Swift, then one of Vitality (if you have low attack range), Rage, Precise, Damage, Splash."
+        },
+        "Target Rune Stats": {}
+    },
+    "Sorrow": {
+        "Image": "https://i.imgur.com/Z8ODDXL.png",
+        "Emoji": "<:sorrow:840771711414435890>",
+        "Type": "dark",
+        "Job": "gunner",
+        "Gender": "female",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "350",
+            "DEF": "16",
+            "DPS": "35",
+            "APS": "0.5",
+            "SPEED": "180",
+            "RANGE": "620",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Fatal Weakness shoots a bullet at the weakest enemy and stuns them, dealing 5x damage",
+        "SP3": "",
+        "SP4": "Gunner: 400% ATK",
+        "Special Ability": "Stun, Piercing, Crusher",
+        "Target Rune Set": {
+            "Runes Sets": "Damage, then two of Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "200+% Crit Damage (Rage, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "90+% Atk Speed (9x Primaries)",
+                "35+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Spark": {
+        "Image": "https://i.imgur.com/cZKaCeN.png",
+        "Emoji": "<:spark:840772083403587585>",
+        "Type": "fire",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "36",
+            "HP": "250",
+            "DEF": "8",
+            "DPS": "36",
+            "APS": "1.0",
+            "SPEED": "170",
+            "RANGE": "505",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Piercing Arrow shoots horizontally and damages each hero hit by the arrow. It has a width, so it can miss ground units based on the spawn height.",
+        "SP3": "",
+        "SP4": "Fire: 200% ATK debuff",
+        "Special Ability": "Burn, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Damage, and two of Burning, Swift, Ignite, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Burning Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "50+% Crit Damage (Secondaries)",
+                "50+% Burn Duration (Burning)",
+                "350+% Atk (Damage, 2x Primaries,Secondaries)",
+                "70+% Atk Speed (7x Primaries)",
+                "70+% Attack Range (Secondaries)"
+            ],
+            "Target Crit Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "150+% Crit Damage (Rage, Secondaries)",
+                "350+% Atk (Damage, 2x Primaries,Secondaries)",
+                "70+% Atk Speed (7x Primaries)",
+                "70+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Spike": {
+        "Image": "https://i.imgur.com/IY5FUko.png",
+        "Emoji": "<:spike:840772118413312010>",
+        "Type": "light",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "26",
+            "HP": "580",
+            "DEF": "30",
+            "DPS": "26",
+            "APS": ".83",
+            "SPEED": "140",
+            "RANGE": "200",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Heavy Blow smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay. Each opponent hit has a 30% chance to be stunned for 2s.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Stun, Anti Knock-back",
+        "Target Rune Set": {
+            "Tank Runes Sets": "Vitality, Guard, Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "17.5+% Crit Rate (Precise)",
+                "300+% HP (Vitality, Secondaries)",
+                "250+% Atk (Damage, Secondaries)",
+                "200+% AOE (Primaries)",
+                "40+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Sprout": {
+        "Image": "https://i.imgur.com/OVBTL63.png",
+        "Emoji": "<:sprout:840772152000643112>",
+        "Type": "earth",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "34",
+            "HP": "260",
+            "DEF": "8",
+            "DPS": "34",
+            "APS": "1.0",
+            "SPEED": "180",
+            "RANGE": "370",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Seed Blat attacks 3 times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Spyro": {
+        "Image": "https://i.imgur.com/2rRePkW.png",
+        "Emoji": "<:spyro:840772213267103764>",
+        "Type": "fire",
+        "Job": "lancer",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "320",
+            "DEF": "12",
+            "DPS": "45",
+            "APS": "0.5",
+            "SPEED": "140",
+            "RANGE": "220",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Burning Spear Multi Hit attacks 4 times dealing a total of 5x damage to the enemy hit. Each hit has a 30% chance to burn at 0.6x Atk*base_aps for 5 seconds",
+        "SP3": "",
+        "SP4": "Fire: 400% ATK",
+        "Special Ability": "Burn, Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Swift": {
+        "Image": "https://i.imgur.com/Aq2P8Lf.png",
+        "Emoji": "<:swift:840772267097194535>",
+        "Type": "light",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "24",
+            "HP": "250",
+            "DEF": "10",
+            "DPS": "24",
+            "APS": "1.25",
+            "SPEED": "160",
+            "RANGE": "380",
+            "CTK RATE": "5%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks five times dealing a total of 5x damage to the enemy hit.",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Tan Suu": {
+        "Image": "https://i.imgur.com/SdEpbLa.png",
+        "Emoji": "<:tansuu:840772315608514580>",
+        "Type": "light",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "410",
+            "DEF": "10",
+            "DPS": "30",
+            "APS": ".67",
+            "SPEED": "130",
+            "RANGE": "450",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Summons a large wall between your team and the enemy. The wall blocks enemies from progressing until they destroy it. The wall reduces AoE damages. 250 AoE radius.",
+        "SP3": "",
+        "SP4": "Light: 20% Elemental Damage Reduction (only affects dark attacking light)",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality, Swift, then either Resist, Stunning, or possibly Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "200+% HP (Vitality, Secondaries)",
+                "80+% APS (Swift, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "25+% Resist (Resist)",
+                "12.5+% Stun Chance (Stunning)",
+                "84+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Tellus": {
+        "Image": "https://i.imgur.com/OqS6i5x.png",
+        "Emoji": "<:tellus:840772352384040991>",
+        "Type": "earth",
+        "Job": "brawler",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "52",
+            "HP": "480",
+            "DEF": "28",
+            "DPS": "52",
+            "APS": ".67",
+            "SPEED": "140",
+            "RANGE": "180",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Stone Combo attacks four times dealing aoe damage with a base radius of 300 for a total of 5x damage to the enemy hit, which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Earth: 400% Def",
+        "Special Ability": "Block Damage, Anti Knock-back, Hit Combo",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {}
+    },
+    "Tesla": {
+        "Image": "https://i.imgur.com/lMrYENF.png",
+        "Emoji": "<:tesla:840772400144580608>",
+        "Type": "light",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "36",
+            "HP": "360",
+            "DEF": "6",
+            "DPS": "36",
+            "APS": ".83",
+            "SPEED": "160",
+            "RANGE": "390",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Electric Hit throws an attack that lands behind the target dealing aoe damage with a base radius of 150 dealing 4x damage which is reduced by aoe decay. This currently does not hit flying heroes.",
+        "SP3": "",
+        "SP4": "Self: 800% Atk",
+        "Special Ability": "Splash Damage, Stun",
+        "Target Rune Set": {
+            "Runes Sets": "three of Damage, Swift, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "Built for Arena buff",
+                "17.5+% Crit Rate (Precise)",
+                "260+% Crit Damage (Rage, Secondaries)",
+                "390+% Atk (Damage, Primaries, Secondaries)",
+                "50+% Atk Speed (Primaries)",
+                "100+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Thor": {
+        "Image": "https://i.imgur.com/CJ94mBY.png",
+        "Emoji": "<:thor:840772443002241035>",
+        "Type": "light",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "48",
+            "HP": "600",
+            "DEF": "14",
+            "DPS": "48",
+            "APS": "0.5",
+            "SPEED": "100",
+            "RANGE": "200",
+            "CTK RATE": "25%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Rush through enemies, knocking them down, this happens every 10s",
+        "SP3": "",
+        "SP4": "Light: 400% Atk",
+        "Special Ability": "Stun, Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Thorn": {
+        "Image": "https://i.imgur.com/oQxC3nO.png",
+        "Emoji": "<:thorn:840772469140881413>",
+        "Type": "earth",
+        "Job": "magic",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "400",
+            "DEF": "6",
+            "DPS": "40",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "500",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Poisonous Wave creates an aoe orb originating at Thorn dealing 0.25x base with a 100% chance for poison (can be resisted) that deals 1.2 ATK*base_aps for 5 seconds. The aoe base damage has a base radius of 600 and is reduced by aoe decay (poison damage is unaffected by this).",
+        "SP3": "",
+        "SP4": "Earth: 200% Atk Debuff",
+        "Special Ability": "Freeze, Poison",
+        "Target Rune Set": {
+            "Runes Sets": "Blight, Damage and either Swift or Splash."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "102+% Poison Duration (Blight, 3x Primaries)",
+                "150+% Atk (Damage, Secondaries)",
+                "150+% AOE (5xPrimaries)",
+                "60+% Attack Range (Secondaries)",
+                "17.5+% APS (Swift)"
+            ]
+        }
+    },
+    "Tiny Dragon": {
+        "Image": "https://i.imgur.com/0ds0w6x.png",
+        "Emoji": "<:tinydragon:840772497951424574>",
+        "Type": "fire",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "38",
+            "HP": "210",
+            "DEF": "8",
+            "DPS": "38",
+            "APS": "1.0",
+            "SPEED": "180",
+            "RANGE": "300",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Dragon Fire attacks 3 times dealing a total of 5x damage to the enemy hit. Each hit has a 5% chance to burn for 0.6x atk*base_aps for 5s",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Burn",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "TNT": {
+        "Image": "https://i.imgur.com/R8cJGky.png",
+        "Emoji": "<:tnt:840772547120988170>",
+        "Type": "fire",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "220",
+            "DEF": "10",
+            "DPS": "40",
+            "APS": "1.0",
+            "SPEED": "125",
+            "RANGE": "480",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Summons a Kamikaze bomb that moves forward for 4s, then explodes, dealing 5x aoe damage with a base radius 250 to the enemy hit, which is reduced by aoe decay. Each hit also burns for 0.75x atk*base_aps for 4s. Kamikaze has a base crit rate of 0%, movement speed of 140, and hp of 10,000. It can be crowd controlled, even possessed.",
+        "SP3": "",
+        "SP4": "Team: 10% Burn Duration",
+        "Special Ability": "Burn, Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Late Runes Sets": "Damage and two of Precise, Rage, Swift, Splash, Burning."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "240+% Atk (Damage, Secondaries, 1 Primary optional instead of an APS)",
+                "70+% Attack Range (Secondaries)",
+                "20+% Movement Speed (Secondaries)",
+                "50+% Crit Damage (Secondaries)",
+                "85+% AOE (3x Primaries OR 2x Primaries + Splash)",
+                "65+% APS (6x Primaries + Swift OR 7x Primaries)"
+            ]
+        }
+    },
+    "Torch": {
+        "Image": "https://i.imgur.com/J1MLWmn.png",
+        "Emoji": "<:torch:840772575067373577>",
+        "Type": "fire",
+        "Job": "gunner",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "40",
+            "HP": "300",
+            "DEF": "10",
+            "DPS": "40",
+            "APS": "0.714",
+            "SPEED": "125",
+            "RANGE": "345",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shoots fire at the enemy with an aoe of 400, dealing 1x damage plus burn damage for 0.6x atk*base_aps for 5s, which is reduced by aoe decay. In February 2021, his sp2 now is able to hit flying.",
+        "SP3": "",
+        "SP4": "Team: 50% Burn Damage",
+        "Special Ability": "Burn, Splash Damage, Piercing",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Trickster": {
+        "Image": "https://i.imgur.com/icorSrQ.png",
+        "Emoji": "<:trickster:840772621875544075>",
+        "Type": "dark",
+        "Job": "magic",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "48",
+            "HP": "340",
+            "DEF": "10",
+            "DPS": "48",
+            "APS": "1.0",
+            "SPEED": "200",
+            "RANGE": "510",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Throws three cards, one each at different opponents starting from the front to back, each dealing 1.65x damage. Each sp1 and sp2 cause a random debuff from one of the following attack lower attack, slowdown, lower def, or stun.",
+        "SP3": "",
+        "SP4": "Team: 6% Negative Effect Duration",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Crowd Control Runes Sets": "Swift, Dazed, Stunning",
+            "DPS Runes Sets": "Swift, Damage, and one of Rage, Precise."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "300+% Atk (Damage, 2x Primaries, Secondaries)",
+                "60+% APS (6x Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "250+% Crit Damage (Rage, 1x Primary, Secondaries)",
+                "65+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Valkyrie": {
+        "Image": "https://i.imgur.com/Gqd4s5x.png",
+        "Emoji": "<:valkyrie:840772676465197056>",
+        "Type": "water",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "280",
+            "DEF": "12",
+            "DPS": "32",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "550",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks five times dealing a total of 5x damage to the enemy hit. Each arrow has a 10% chance to freeze the enemy for 2s.",
+        "SP3": "",
+        "SP4": "300% Crit Damage",
+        "Special Ability": "Freeze, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Late Runes Sets": "Three of Chilling, Swift, Damage, Precise, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "250+% Atk (Damage, 1x Primaries, Secondaries)",
+                "60+% APS (6x Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "300+% Crit Damage (Rage, 2x Primary, Secondaries)",
+                "55+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Vlad": {
+        "Image": "https://i.imgur.com/VgvJEbs.png",
+        "Emoji": "<:vlad:840772999086604309>",
+        "Type": "dark",
+        "Job": "support",
+        "Gender": "male",
+        "Rarity": "Epic",
+        "Base Stats": {
+            "ATK": "42",
+            "HP": "250",
+            "DEF": "6",
+            "DPS": "42",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "560",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Blood Lust attacks three times dealing a total of 5x damage to the enemy hit. The damage done is then multiplied and healed to friendly units based on their remaining health. The multiplier is 1200% at 7*.",
+        "SP3": "",
+        "SP4": "Enemies: 10% APS Debuff",
+        "Special Ability": "Life Steal",
+        "Target Rune Set": {
+            "Late Runes Sets": "Damage, Precise then one of Swift, Rage."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "300+% Atk (Damage, 2x Primaries, Secondaries)",
+                "60+% APS (6x Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "250+% Crit Damage (Rage, 1x Primary, Secondaries)",
+                "55+% Attack Range (Secondaries)"
+            ]
+        }
+    },
+    "Voodoo Archer": {
+        "Image": "https://i.imgur.com/RzRRSsC.png",
+        "Emoji": "<:voodooarcher:840773022516510730>",
+        "Type": "earth",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "24",
+            "HP": "240",
+            "DEF": "6",
+            "DPS": "24",
+            "APS": "1.0",
+            "SPEED": "160",
+            "RANGE": "425",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks five times dealing a total of 5x damage to the enemy hit",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Poison, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Voodoo Dagger": {
+        "Image": "https://i.imgur.com/zjS9jpD.png",
+        "Emoji": "<:voodoodagger:840773078664478730>",
+        "Type": "earth",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "200",
+            "DEF": "8",
+            "DPS": "35",
+            "APS": "1.0",
+            "SPEED": "220",
+            "RANGE": "120",
+            "CTK RATE": "35%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks seven times dealing a total of 5x damage to the enemy hit",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Poison, Extra Gold, Evade",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Voodoo Spear": {
+        "Image": "https://i.imgur.com/7JIoGs4.png",
+        "Emoji": "<:voodoospear:840773117860642827>",
+        "Type": "earth",
+        "Job": "lancer",
+        "Gender": "female",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "32",
+            "HP": "320",
+            "DEF": "6",
+            "DPS": "32",
+            "APS": "0.5",
+            "SPEED": "160",
+            "RANGE": "220",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Poison, Stun",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Vulcan Archer": {
+        "Image": "https://i.imgur.com/f5qlyGD.png",
+        "Emoji": "<:vulcanarcher:840773148751298570>",
+        "Type": "fire",
+        "Job": "ranger",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "24",
+            "HP": "200",
+            "DEF": "10",
+            "DPS": "24",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "380",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks five times dealing a total of 5x damage to the enemy hit",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Burn, 100% Ctk Dmg on Flying Targets",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Vulcan Fighter": {
+        "Image": "https://i.imgur.com/SXmHapX.png",
+        "Emoji": "<:vulcanfighter:840773529716916246>",
+        "Type": "fire",
+        "Job": "rogue",
+        "Gender": "male",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "30",
+            "HP": "240",
+            "DEF": "10",
+            "DPS": "30",
+            "APS": "1.0",
+            "SPEED": "150",
+            "RANGE": "120",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hit attacks multiple times dealing a total of 5x damage to the enemy hit",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Extra Gold, Evade",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Vulcan Hammer": {
+        "Image": "https://i.imgur.com/zeJZMfX.png",
+        "Emoji": "<:vulcanhammer:840773592219779092>",
+        "Type": "fire",
+        "Job": "barbarian",
+        "Gender": "female",
+        "Rarity": "Common",
+        "Base Stats": {
+            "ATK": "45",
+            "HP": "400",
+            "DEF": "10",
+            "DPS": "45",
+            "APS": "0.5",
+            "SPEED": "110",
+            "RANGE": "130",
+            "CTK RATE": "15%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hammer Hit attacks three times dealing aoe damage with a base radius of 350 dealing a total of 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Runes Sets": "Don\u2019t spend materials on this hero."
+        },
+        "Target Rune Stats": {}
+    },
+    "Wolfie": {
+        "Image": "https://i.imgur.com/gikangP.png",
+        "Emoji": "<:wolfie:840773638856114197>",
+        "Type": "earth",
+        "Job": "barbarian",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "600",
+            "DEF": "16",
+            "DPS": "35",
+            "APS": ".83",
+            "SPEED": "130",
+            "RANGE": "220",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Multi Hammer Hit attacks three times dealing aoe damage with a base radius of 150 dealing a total of 5x damage which is reduced by aoe decay",
+        "SP3": "",
+        "SP4": "Earth: 400% Atk",
+        "Special Ability": "Anti Knock-back",
+        "Target Rune Set": {
+            "Blitz Runes Sets": "Vitality."
+        },
+        "Target Rune Stats": {}
+    },
+    "Xak": {
+        "Image": "https://i.imgur.com/JXGJCdw.png",
+        "Emoji": "<:xak:841025434065698826>",
+        "Type": "fire",
+        "Job": "support",
+        "Gender": "male",
+        "Rarity": "Rare",
+        "Base Stats": {
+            "ATK": "20",
+            "HP": "180",
+            "DEF": "10",
+            "DPS": "20",
+            "APS": ".67",
+            "SPEED": "170",
+            "RANGE": "420",
+            "CTK RATE": "10%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Shock Wave creates an aoe orb originating at Xak dealing 0.2x damage with an aoe decay to all enemies hit.  Shock wave stuns (can be resisted) all heroes hit.  The aoe has a base radius of 600.  This can hit flying heroes.",
+        "SP3": "",
+        "SP4": "Fire: 25% Movement Speed",
+        "Special Ability": "Stun",
+        "Target Rune Set": {
+            "Late Runes Sets": "Swift, Splash, Dazed."
+        },
+        "Target Rune Stats": {}
+    }
+}

@@ -3,6 +3,12 @@ import json
 import base64
 from loguru import logger
 import discord
+import traceback
+
+
+
+with open('data/config.json') as d:
+        config = json.load(d)
 
 
 
@@ -17,8 +23,6 @@ async def isAdmin(ctx):
 
 async def isLeader(ctx):
     # check if user is guild leader
-    with open('data/config.json') as d:
-        config = json.load(d)
     role = ctx.guild.get_role(config["roles"]["Recruitee"])
     userRoles = ctx.message.author.roles
     if role in userRoles:
@@ -35,8 +39,6 @@ async def isLeader(ctx):
 
 def isGuildLeader(user):
     # check if user is guild leader
-    with open('data/config.json') as d:
-        config = json.load(d)
     guild = user.guild
     role = guild.get_role(config["roles"]["Recruitee"])
     userRoles = user.roles
@@ -56,8 +58,7 @@ def isDev(ctx):
 async def isRecruitee(ctx, user):
     # add a try statement to check for validity
     userRoles = user.roles
-    with open('data/config.json') as d:
-        role = ctx.guild.get_role(json.load(d)["roles"]["Recruitee"])
+    role = ctx.guild.get_role(config["roles"]["Recruitee"])
     if role not in userRoles:
         await ctx.send('```You can only user this command on recruitees.```')
         return False
@@ -69,22 +70,40 @@ async def isRecruitee(ctx, user):
 
 
 
-async def handleException(e, channel):
+async def handleException(e, client):
     logger.exception(e)
-    await channel.send(f"```{str(e)}```")
+    for channelID in config["config"]["logs"]:
+        channel = client.get_channel(channelID)
+        tb = ''.join(traceback.format_exception(etype=type(e), value=e, tb=e.__traceback__))
+        embed = discord.Embed(title="⛔️ ERROR ⛔️", color=0xff1100, description=f"```{tb}```")
+        await channel.send(embed=embed)
+
+
+
+async def logUsage(str, client):
+    for channelID in config["config"]["logs"]:
+        channel = client.get_channel(channelID)
+        embed = discord.Embed(title="✅ USAGE ✅", color=0x1aff00, description=f"```{str}```")
+        await channel.send(embed=embed)
+
+
+
+async def logEvent(str, client):
+    for channelID in config["config"]["logs"]:
+        channel = client.get_channel(channelID)
+        embed = discord.Embed(title="⚠️ EVENT ⚠️", color=0xfff700, description=f"```{str}```")
+        await channel.send(embed=embed)
 
 
 
 async def gitPush():
     # push files to GitHub
     logger.info("Pushing latest files to GitHub.")
-    with open('data/config.json') as d:
-        config = json.load(d)
     filenames = ["data/config.json", "data/recruitees.json"]
     for filename in filenames: 
         try:
             token = config["config"]["githubOath"]
-            repo = "amymainyc/cta-raiderbot"
+            repo = "amymainyc/raider-bot"
             branch = "main"
             url = "https://api.github.com/repos/" + repo + "/contents/" + filename
 
@@ -111,3 +130,14 @@ async def gitPush():
 
         except Exception as e:
             logger.exception(e)
+
+
+
+def formatNum(num1):
+    num1 = str(round(float(num1)))
+    num2 = ""
+    for i in range(len(num1)):
+        if len(num1[len(num1) - i:]) % 3 == 0 and num2 != "":
+            num2 = "," + num2
+        num2 = num1[len(num1) - i - 1] + num2
+    return num2

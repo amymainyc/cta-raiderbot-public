@@ -1,0 +1,31 @@
+{
+    "Type": [
+        "water",
+        "earth",
+        "fire",
+        "dark",
+        "light"
+    ],
+    "Job": [
+        "brawler",
+        "barbarian",
+        "ranger",
+        "gunner",
+        "magic",
+        "support",
+        "knight",
+        "rogue",
+        "samurai",
+        "lancer"
+    ],
+    "Gender": [
+        "male",
+        "female"
+    ],
+    "Rarity": [
+        "common",
+        "rare",
+        "epic",
+        "legendary"
+    ]
+}

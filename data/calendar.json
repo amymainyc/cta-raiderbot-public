@@ -71,6 +71,94 @@
         "color": "0x71ff24",
         "description": "Dump your remaining energy!"
     },
+    "Vlad Blitz!": {
+        "time": 1620748800,
+        "image": "https://i.imgur.com/4cHOZjS.jpg",
+        "thumbnail": "https://i.imgur.com/tb6CEeg.png",
+        "intervals": 3888000,
+        "color": "0x7000bf",
+        "description": "It's the first day of Vlad's Blitz! Get your blitz attacks in."
+    },
+    "Hooky Blitz!": {
+        "time": 1621180800,
+        "image": "https://i.imgur.com/MILqqbP.jpg",
+        "thumbnail": "https://i.imgur.com/HzM1rbk.png",
+        "intervals": 3888000,
+        "color": "0x75ff7e",
+        "description": "It's the first day of Hooky's Blitz! Get your blitz attacks in."
+    },
+    "Frost Queen Blitz!": {
+        "time": 1621612800,
+        "image": "https://i.imgur.com/SM5Znle.jpg",
+        "thumbnail": "https://i.imgur.com/S5k2urL.png",
+        "intervals": 3888000,
+        "color": "0x08b5ff",
+        "description": "It's the first day of Frost Queen's Blitz! Get your blitz attacks in."
+    },
+    "Clawdette Blitz!": {
+        "time": 1622044800,  
+        "image": "https://i.imgur.com/8QOOboR.jpg",
+        "thumbnail": "https://i.imgur.com/lKFlPFu.png",
+        "intervals": 3888000,
+        "color": "0x00ff11",
+        "description": "It's the first day of Clawdette's Blitz! Get your blitz attacks in."
+    },
+    "TNT Blitz!": {
+        "time": 1622476800,
+        "image": "https://i.imgur.com/zh2sGwL.jpg",
+        "thumbnail": "https://i.imgur.com/0g9Xx21.png",
+        "intervals": 3888000,
+        "color": "0xff2424",
+        "description": "It's the first day of TNT's Blitz! Get your blitz attacks in."
+    },
+    "Necromancer Blitz!": {
+        "time": 1622908800,
+        "image": "https://i.imgur.com/nKliZqj.jpg",
+        "thumbnail": "https://i.imgur.com/gUuJ6DX.png",
+        "intervals": 3888000,
+        "color": "0xd063ff",
+        "description": "It's the first day of Necromancer's Blitz! Get your blitz attacks in."
+    },
+    "Namida Blitz!": {
+        "time": 1623340800,
+        "image": "https://i.imgur.com/lL9dILm.jpg",
+        "thumbnail": "https://i.imgur.com/sdbvh3l.png",
+        "intervals": 3888000,
+        "color": "0x08a4ff",
+        "description": "It's the first day of Namida's Blitz! Get your blitz attacks in."
+    },
+    "Paladin Blitz!": {
+        "time": 1623772800,
+        "image": "https://i.imgur.com/STZlF3D.jpg",
+        "thumbnail": "https://i.imgur.com/SyL169J.png",
+        "intervals": 3888000,
+        "color": "0xffe600",
+        "description": "It's the first day of Paladin's Blitz! Get your blitz attacks in."
+    },
+    "Manta Blitz!": {
+        "time": 1624204800,
+        "image": "https://i.imgur.com/2fafnpX.png",
+        "thumbnail": "https://i.imgur.com/1xxkVZw.png",
+        "intervals": 3888000,
+        "color": "0x00b7ff",
+        "description": "It's the first day of Manta's Blitz! Get your blitz attacks in."
+    },
+    "Epic Sunday in 7 hours!": {
+        "time": 1621098000,
+        "image": "https://i.imgur.com/658VgtV.jpg",
+        "thumbnail": "https://i.imgur.com/73Phkfb.png",
+        "intervals": 604800,
+        "color": "0xffbb00",
+        "description": "Wait to use your medal request until Daily Reset so you can request an epic hero."
+    },
+    "Arena Push Round!": {
+        "time": 1621036800,
+        "image": "https://i.imgur.com/GsoFJPd.jpg",
+        "thumbnail": "https://i.imgur.com/C1Nffb9.png",
+        "intervals": 604800,
+        "color": "0x1eff00",
+        "description": "Today is round 4 of the arena. Get as high as you can so you can get the best Arena Seasonal Reward."
+    },
     "Daily Reset!": {
         "time": 1620259200,
         "image": "https://i.imgur.com/658VgtV.jpg",

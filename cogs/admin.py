@@ -24,10 +24,7 @@ class Admin(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         # bot startup tasks
-        logger.info("Bot is ready.")
-        with open("data/exceptions.json", "w") as f:
-            exceptions = {"exceptions":[]}
-            json.dump(exceptions, f, indent=4)
+        await logEvent("Bot has finished rebooting.", self.client)
         activity = discord.Game(name=f"Crush Them All! | r.help")
         await self.client.change_presence(activity=activity)
         await asyncio.sleep(43200)
@@ -35,9 +32,16 @@ class Admin(commands.Cog):
 
 
 
+    # @commands.Cog.listener()
+    # async def on_message(self, message):
+        # print(message.content)
+
+
+
     @commands.command()
     async def help(self, ctx):
         # help command
+        await logUsage(f"Help command requested by @{ctx.author.name}.", self.client) 
         left = '⏪'
         right = '⏩'
         pages = [self.makeGeneralHelpEmbed(), self.makeRecruitHelpEmbed(), self.makeModHelpEmbed()]
@@ -65,10 +69,8 @@ class Admin(commands.Cog):
             try:
                 reaction, user = await self.client.wait_for('reaction_add', timeout=300, check=check)
                 await message.remove_reaction(reaction, user)
-            except Exception as e:
-                print(str(e))
+            except asyncio.TimeoutError:
                 break
-
         await message.clear_reactions()
     
 
@@ -92,6 +94,21 @@ class Admin(commands.Cog):
         embed.add_field(
             name="★ **r.guildwarraiders**",
             value="Returns the guild war rankings for all of the Raider guilds `(Aliases: r.gwr)`",
+            inline=False
+        )
+        embed.add_field(
+            name="★ **r.hero (hero)**",
+            value="Returns general hero info and rune recommendations `(Aliases: r.h)`\n`Ex: r.hero frost queen 7 4`",
+            inline=False
+        )
+        embed.add_field(
+            name="★ **r.compare (hero1) <stars> <awakened>, (hero2) ...**",
+            value="Compares the stats of those heros `(Aliases: r.cpr)`\n`Ex: r.compare sg 4 2, xak 5 3`",
+            inline=False
+        )
+        embed.add_field(
+            name="★ **r.compare (type1) <subtype> <stars> <awakened>, (type2) ...**",
+            value="Compares the stats of the hero types given `(Aliases: r.cpr)`\n`Ex: r.compare epic dark, legendary dark`",
             inline=False
         )
         embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
@@ -171,40 +188,7 @@ class Admin(commands.Cog):
         # push files to GitHub
         if ctx.author == self.client.get_user(430079880353546242):
             await ctx.send("Pushing latest files to GitHub.")
-            with open('data/config.json') as d:
-                config = json.load(d)
-            filenames = ["data/config.json", "data/recruitees.json", "data/guildwar.json"]
-            for filename in filenames: 
-                try:
-                    token = config["config"]["githubOath"]
-                    repo = "amymainyc/cta-raiderbot"
-                    branch = "main"
-                    url = "https://api.github.com/repos/" + repo + "/contents/" + filename
-
-                    base64content = base64.b64encode(open(filename, "rb").read())
-
-                    async with aiohttp.ClientSession() as session:
-                        async with session.get(url + '?ref=' + branch, headers={"Authorization": "token " + token}) as data:
-                            data = await data.json()
-                    sha = data['sha']
-
-                    if base64content.decode('utf-8') + "\n" != data['content']:
-                        message = json.dumps(
-                            {"message": "Automatic data update.",
-                                "branch": branch,
-                                "content": base64content.decode("utf-8"),
-                                "sha": sha}
-                        )
-
-                        async with aiohttp.ClientSession() as session:
-                            async with session.put(
-                                url, data=message, headers={"Content-Type": "application/json", "Authorization": "token " + token}
-                            ) as resp:
-                                print(resp)
-
-                except Exception as e:
-                    channel = self.client.get_channel(config["config"]["errorLogs"])
-                    await handleException(e, channel)
+            gitPush()
 
 
 
@@ -223,8 +207,7 @@ class Admin(commands.Cog):
         if isinstance(exception, commands.TooManyArguments):
             return await ctx.send("```Too many arguments! Check r.help for usage instructions.```")
         else:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(exception, channel)
+            await handleException(exception, self.client)
 
 
 

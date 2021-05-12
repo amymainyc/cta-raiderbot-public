@@ -25,24 +25,8 @@ class Recruit(commands.Cog):
     
     @commands.Cog.listener()
     async def on_ready(self):
-        await self.checkWelcomeMessage()
         await self.deleteInactives()
         await self.resetRecruitStats.start()
-
-
-
-    async def checkWelcomeMessage(self):
-        # make sure the welcome message has preset reactions
-        try:
-            welcomeMessageID = config["config"]["welcomeMessageID"]
-            welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
-            message = await welcomeChannel.fetch_message(welcomeMessageID)
-            await message.clear_reactions()
-            await message.add_reaction('✅')
-            await message.add_reaction('❌')
-        except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
 
 
 
@@ -52,6 +36,9 @@ class Recruit(commands.Cog):
         try:
             if isDev(ctx):
                 welcomeChannel = self.client.get_channel(config["channels"]["Welcome"])
+                message = await welcomeChannel.fetch_message(config["config"]["welcomeMessageID"])
+                try: await message.delete()
+                except: pass
                 embed = discord.Embed(
                     title="Welcome to the Raiders discord server!", 
                     color=0x000000,
@@ -67,8 +54,7 @@ class Recruit(commands.Cog):
                     config["config"]["welcomeMessageID"] = welcomeMessage.id
                     json.dump(config, f, indent=4)
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
         
@@ -95,9 +81,9 @@ class Recruit(commands.Cog):
                         await self.sendToNextGuild(payload.member)
                     if payload.emoji.name == '❌':
                         await self.sendToGeneralChannel(payload.member)
+            
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -142,12 +128,12 @@ class Recruit(commands.Cog):
                 recruitees[member.id] = [f"[Sent to {nextChannel}]"]
             with open("data/recruitees.json", "w") as f:
                 json.dump(recruitees, f, indent=4)
+
+            await logUsage(f"@{member.name} has been sent to #{channel.name} by @Raider Bot.", self.client)
             await self.guildTimeout(channel, member)
 
-
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -213,6 +199,7 @@ class Recruit(commands.Cog):
             embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
             await channel.send(embed=embed)
 
+            await logUsage(f"@{member.name} has been sent to #{channel.name} by @Raider Bot due to timeout.", self.client)
             await self.guildTimeout(channel, member)
 
 
@@ -230,9 +217,9 @@ class Recruit(commands.Cog):
                 await member.remove_roles(member.roles[role])
             await member.add_roles(channel.guild.get_role(config["roles"]["General"]))
             await channel.send(f"(・ω・)ノ <@{member.id}> has joined the party!")
+            await logUsage(f"@{member.name} has been sent to #{channel.name} by @Raider Bot.", self.client)
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
     
@@ -260,7 +247,10 @@ class Recruit(commands.Cog):
 
                 def check(reaction, user):
                     return user == ctx.message.author and (str(reaction.emoji) == "✅" or str(reaction.emoji) == "❌")
-                reaction, user = await self.client.wait_for('reaction_add', check=check)
+                try: 
+                    reaction, user = await self.client.wait_for('reaction_add', check=check, timeout=300)
+                except asyncio.TimeoutError:
+                    return await message.clear_reactions()
                 
                 embed = discord.Embed()
                 embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
@@ -284,13 +274,13 @@ class Recruit(commands.Cog):
                             pass
                     with open("data/recruitees.json", "w") as f:
                         json.dump(recruitees, f, indent=4)
+                    await logUsage(f"@{member.name} has been recruited to {channelName} by @{ctx.author.name}.", self.client)
                 elif str(reaction.emoji) == "❌":
                     embed.add_field(name=f"@{member.name}'s recruitment has been aborted ❌", value="** **")
                 await message.edit(embed=embed)
                 await message.clear_reactions()
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -316,8 +306,11 @@ class Recruit(commands.Cog):
 
                 def check(reaction, user):
                     return user == ctx.message.author and str(reaction.emoji) in emojis
-                reaction, user = await self.client.wait_for('reaction_add', check=check)
-                
+                try: 
+                    reaction, user = await self.client.wait_for('reaction_add', check=check, timeout=300)
+                except asyncio.TimeoutError:
+                    return await message.clear_reactions()
+
                 for e in range(len(emojis)):
                     if str(reaction.emoji) == emojis[e]:
                         targetName = list(channels)[e+1]
@@ -367,15 +360,15 @@ class Recruit(commands.Cog):
                             emoji = config["emojis"][targetName]
 
                         embed = discord.Embed()
-                        embed.add_field(name=f"@{member.name} has been sent to {targetName} {emoji}✅", value=f"** **")
+                        embed.add_field(name=f"@{member.name} has been transferred to {targetName} {emoji}✅", value=f"** **")
                         embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
                         await message.edit(embed=embed)
                         await message.clear_reactions()
+                        await logUsage(f"@{member.name} has been transferred to {targetName} by @{ctx.author.name}.", self.client)
                         break
 
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -419,9 +412,10 @@ class Recruit(commands.Cog):
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)
                 await message.clear_reactions()
+                await logUsage(f"{channelName} has been opened to new recruits by @{ctx.author.name}.", self.client)
+                
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -465,9 +459,10 @@ class Recruit(commands.Cog):
                     embed.add_field(name=f"Command aborted ❌", value="** **")
                 await message.edit(embed=embed)
                 await message.clear_reactions()
+                await logUsage(f"{channelName} has been closed to new recruits by @{ctx.author.name}.", self.client)
+
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
     
@@ -487,8 +482,7 @@ class Recruit(commands.Cog):
                     with open("data/recruitees.json", "w") as f:
                             json.dump(recruitees, f, indent=4)
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -537,31 +531,58 @@ class Recruit(commands.Cog):
                 field += f"{config['colorEmojis'][list(stats)[guild]]} `{list(stats)[guild]}`: {stats[list(stats)[guild]]}\n"
             embed.add_field(name="** **", value=field)
             await ctx.send(embed=embed)
+            await logUsage(f"Recruit stats requested by @{ctx.author.name}.", self.client)
+
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
     @commands.command()
     async def rotation(self, ctx):
-        index = config["config"]["nextChannel"]
-        order = []
-        i = index
-        while True:
-            nextChannel = list(config["channels"])[i]
-            if config["isOpen"][nextChannel] == "open":
-                order.append(config["colorEmojis"][nextChannel] + f" `{nextChannel}`")
-            i += 1
-            if i >= len(config["channels"]):
-                i = 2
-            if i == index: break
+        # returns the rotation of guilds
+        try: 
+            index = config["config"]["nextChannel"]
+            order = []
+            i = index
+            while True:
+                nextChannel = list(config["channels"])[i]
+                if config["isOpen"][nextChannel] == "open":
+                    order.append(config["colorEmojis"][nextChannel] + f" `{nextChannel}`")
+                i += 1
+                if i >= len(config["channels"]):
+                    i = 2
+                if i == index: break
 
-        embed = discord.Embed(title="Guilds Rotation")
-        embed.add_field(name="Next recruit goes to:", value=order[0], inline=False)
-        embed.add_field(name="Followed by:", value="\n".join(order[1:]), inline=False)
-        embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
-        await ctx.send(embed=embed)
+            embed = discord.Embed(title="Guilds Rotation")
+            embed.add_field(name="Next recruit goes to:", value=order[0], inline=False)
+            embed.add_field(name="Followed by:", value="\n".join(order[1:]), inline=False)
+            embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
+            await ctx.send(embed=embed)
+            await logUsage(f"Rotation requested by @{ctx.author.name}.", self.client)
+
+        except Exception as e:
+            await handleException(e, self.client)
+
+
+
+    @commands.command()
+    async def forward(self, ctx):
+        # changes the rotation
+        if isDev(ctx):
+            index = config["config"]["nextChannel"]
+            while True:
+                nextChannel = list(config["channels"])[index]
+                index += 1
+                if index >= len(config["channels"]):
+                    index = 2
+                if config["isOpen"][nextChannel] == "open":
+                    break
+            with open("data/config.json", "w") as f:
+                config["config"]["nextChannel"] = index
+                json.dump(config, f, index=4)
+            await logUsage(f"Rotation forwarded by @{ctx.author.name}.", self.client)
+
 
 
 
@@ -578,9 +599,9 @@ class Recruit(commands.Cog):
                     config["newMembers"][guild] = 0
                 with open("data/config.json", "w") as f:
                     json.dump(config, f, indent=4)
+                await logEvent("Recruit stats have been reset.", self.client)
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -602,8 +623,7 @@ class Recruit(commands.Cog):
             with open("data/recruitees.json", "w") as f:
                 json.dump(recruitees, f, indent=4)
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
@@ -613,20 +633,21 @@ class Recruit(commands.Cog):
         await member.add_roles(channel.guild.get_role(config["config"]["newMemberRole"]))
         await asyncio.sleep(1)
         await channel.send(f"<@{member.id}>", delete_after=1)
+        await logEvent(f"@{member.name} has joined the server.", self.client)
         await asyncio.sleep(300)
         try:
             if channel.guild.get_role(config["config"]["newMemberRole"]) in member.roles:
                 await member.send(f"```Hey! I noticed you haven't reacted to the welcome message yet! Check #{channel.name} and react to gain access to the server.```")
         except Exception as e:
-            channel = self.client.get_channel(config["config"]["errorLogs"])
-            await handleException(e, channel)
+            await handleException(e, self.client)
 
 
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
-        channel = self.client.get_channel(config["channels"]["General"])
-        await channel.send(f"{member.mention} has left the server... Farewell on your journeys!")
+        channel = self.client.get_channel(828439372923404328)
+        await channel.send(f"@{member.name} has left the server... Farewell on your journeys!")
+        await logEvent(f"@{member.name} has left the server.", self.client)
 
 
 

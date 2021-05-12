@@ -23,6 +23,7 @@ class Mod(commands.Cog):
 
             await ctx.message.delete()
             await channel.purge(limit=num_messages, check=check, before=None)
+            await logUsage(f"Purged {num_messages} messages in #{ctx.message.channel.name}, requested by @{ctx.author.name}.", self.client) 
 
 
 
@@ -37,6 +38,7 @@ class Mod(commands.Cog):
 
             await ctx.message.delete()
             await channel.purge(limit=num_messages, check=check, before=None)
+            await logUsage(f"Purged {num_messages} messages by @{user.name} in #{ctx.message.channel.name}, requested by @{ctx.author.name}.", self.client) 
 
 
 
@@ -51,6 +53,7 @@ class Mod(commands.Cog):
 
             await ctx.message.delete()
             await channel.purge(check=check, before=None)
+            await logUsage(f"Purged all messages in #{ctx.message.channel.name}, requested by @{ctx.author.name}.", self.client) 
 
 
 

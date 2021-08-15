@@ -1,0 +1,139 @@
+{
+    "general": {
+        "bannerUrl": "https://i.imgur.com/W7c4Gq3.png",
+        "welcomeMessageID": 860024183043915776,
+        "nextChannel": 7,
+        "footer": "Raider Bot by Moonflower#8861 and porsul#0001\nSupport us @ patreon.com/raiderbotdevs",
+        "newMemberRole": 836067330119041074,
+        "logs": [
+            836067111193018408,
+            840778079889784872
+        ],
+        "guildID": 585433379617636353,
+        "links": {
+            "guildWar": "http://gzidlerpg.appspot.com/web/scores?tid=233060001&offset=",
+            "photoAPI": "https://api.unsplash.com/search/photos?client_id=[clientid]&query=[query]&page="
+        },
+        "guildWarBannerUrl": "https://i.imgur.com/aK5Y268.jpg",
+        "remindersChannel": 839244138302013460
+    },
+    "channels": {
+        "Welcome": 833087112932884490,
+        "General": 639912850122473482,
+        "ShadeRaiders": 833068870951501854,
+        "ShadowRaiders": 833083310279753768,
+        "KRAiders": 833078037137588224,
+        "DawnRaiders": 833072220145975316,
+        "The Legendary Raiders": 833072608500252692,
+        "DemonicRaiders": 833073163952586822,
+        "Raging Bull Raiders": 833088814645772331,
+        "ShadyRaiders": 835330423306846228
+    },
+    "roles": {
+        "ShadeRaiders": 675720492027478020,
+        "ShadowRaiders": 712129673676455997,
+        "KRAiders": 716741750613475408,
+        "DawnRaiders": 772434472951349258,
+        "The Legendary Raiders": 679398792088387585,
+        "DemonicRaiders": 807578334493016114,
+        "Raging Bull Raiders": 826218532480090123,
+        "ShadyRaiders": 766527517787815966,
+        "Recruitee": 739483861393866762,
+        "General": 815775945214525480
+    },
+    "leaderRoles": {
+        "ShadeRaiders": 634829220710711296,
+        "ShadowRaiders": 712774310514917376,
+        "KRAiders": 719312521072476262,
+        "DawnRaiders": 774606589339762728,
+        "The Legendary Raiders": 805392171658117130,
+        "DemonicRaiders": 807578706620710922,
+        "Raging Bull Raiders": 826216730225278994,
+        "ShadyRaiders": 835322299086274571,
+        "Raiders Overflow": 858833717051916358
+    },
+    "isOpen": {
+        "ShadeRaiders": "open",
+        "ShadowRaiders": "open",
+        "KRAiders": "open",
+        "DawnRaiders": "open",
+        "The Legendary Raiders": "open",
+        "DemonicRaiders": "open",
+        "Raging Bull Raiders": "closed",
+        "ShadyRaiders": "open"
+    },
+    "newMembers": {
+        "ShadeRaiders": 0,
+        "ShadowRaiders": 0,
+        "KRAiders": 0,
+        "DawnRaiders": 0,
+        "The Legendary Raiders": 0,
+        "DemonicRaiders": 0,
+        "Raging Bull Raiders": 0,
+        "ShadyRaiders": 0
+    },
+    "guildChannels": {
+        "ShadeRaiders": 714086833461395477,
+        "ShadowRaiders": 714080718984183869,
+        "KRAiders": 716992128667877429,
+        "DawnRaiders": 772150308457283614,
+        "The Legendary Raiders": 805395634654937158,
+        "DemonicRaiders": 807582655683231804,
+        "Raging Bull Raiders": 826223646246043678,
+        "ShadyRaiders": 835322001005477958
+    },
+    "emojis": {
+        "ShadeRaiders": "<a:Shade:838800100452597840>",
+        "ShadowRaiders": "<a:Shadow:838791658874994688>",
+        "KRAiders": "<a:Kra:838793537281327104>",
+        "DawnRaiders": "<a:Dawn:838786097173364799>",
+        "The Legendary Raiders": "<a:Legendary:838795357038182440>",
+        "DemonicRaiders": "<a:Demonic:838789295954198529>",
+        "Raging Bull Raiders": "<a:Raging:838796907517313124>",
+        "ShadyRaiders": "<a:Shady:838801483972739082>"
+    },
+    "colorEmojis": {
+        "ShadeRaiders": "\ud83d\udfe0",
+        "ShadowRaiders": "\ud83d\udfe2",
+        "KRAiders": "\ud83d\udd35",
+        "DawnRaiders": "\ud83d\udd34",
+        "The Legendary Raiders": "\ud83d\udfe3",
+        "DemonicRaiders": "\u26ab\ufe0f",
+        "Raging Bull Raiders": "\ud83d\udfe4",
+        "ShadyRaiders": "\u26aa\ufe0f"
+    },
+    "reactions": {
+        "channelID": 716720818670927892,
+        "messageID": 839202416988651540,
+        "reactionRoles": {
+            "\u2753": [
+                723550223800205392,
+                "Click this emoji if you'd like a PING when a new topic is posted in <#739224622016233554>"
+            ],
+            "\u274c": [
+                731859281665851454,
+                "Click this emoji if you'd like to be able to view and post in <#730507185079189596>, and view the rules for said channel in <#731861254473252864>. `Must be 18+!`"
+            ],
+            "\u2757": [
+                797840056504680468,
+                "Click this emoji if you'd like to receive CTA notifications about; Incoming Epic Sunday, Blitz Chests, Slay Bosses that are ending soon, etc."
+            ],
+            "\ud83c\udf93": [
+                818315428412522586,
+                "Click this emoji if you consider yourself a CTA Master and would like to receive pings from players needing answers or advice."
+            ],
+            "\ud83e\udd16": [
+                839192892576759809,
+                "Click this emoji if you'd like to receive Raider Bot update messages in <#839193493200568361>"
+            ],
+            "\ud83c\udfb0": [
+                841785498262569001,
+                "Click this emoji if you'd like to receive community pings in <#841785304842240060> when the lucky spin jackpot is over 10k."
+            ],
+            "\u2694\ufe0f": [
+                865372950345285662,
+                "A Master Warlord needs to be okay with being mentioned, and be able to help other raiders with some warlord decisions."
+            ]
+        }
+    }
+}

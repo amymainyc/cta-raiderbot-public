@@ -3,79 +3,13 @@
         "botToken": "",
         "cloneToken": "",
         "inviteLink": "",
-        "githubOath": "",
-        "bannerUrl": "https://i.imgur.com/fUc2E2y.png",
-        "welcomeMessageID": 836433808663511150,
-        "nextChannel": 2,
-        "footer": "Raider Bot by Moonflower#8861 and porsul#0001",
-        "newMemberRole": 836067330119041074,
-        "errorLogs": 836067111193018408,
-        "guildID": 585433379617636353,
-        "guildWar": "http://gzidlerpg.appspot.com/web/scores?tid=233060001&offset=",
-        "guildWarBannerUrl": "https://i.imgur.com/aK5Y268.jpg"
+        "githubOath": ""
     },
-    "channels": {
-        "Welcome": 833087112932884490,
-        "General": 639912850122473482,
-        "ShadeRaiders": 833068870951501854,
-        "ShadowRaiders": 833083310279753768,
-        "KRAiders": 833078037137588224,
-        "DawnRaiders": 833072220145975316,
-        "The Legendary Raiders": 833072608500252692,
-        "DemonicRaiders": 833073163952586822,
-        "Raging Bull Raiders": 833088814645772331,
-        "ShadyRaiders": 835330423306846228
-    },
-    "roles": {
-        "ShadeRaiders": 675720492027478020,
-        "ShadowRaiders": 712129673676455997,
-        "KRAiders": 716741750613475408,
-        "DawnRaiders": 772434472951349258,
-        "The Legendary Raiders": 679398792088387585,
-        "DemonicRaiders": 807578334493016114,
-        "Raging Bull Raiders": 826218532480090123,
-        "ShadyRaiders": 766527517787815966,
-        "Recruitee": 739483861393866762,
-        "General": 815775945214525480
-    },
-    "isOpen": {
-        "ShadeRaiders": "open",
-        "ShadowRaiders": "open",
-        "KRAiders": "open",
-        "DawnRaiders": "open",
-        "The Legendary Raiders": "open",
-        "DemonicRaiders": "closed",
-        "Raging Bull Raiders": "open",
-        "ShadyRaiders": "open"
-    },
-    "newMembers": {
-        "ShadeRaiders": 0,
-        "ShadowRaiders": 0,
-        "KRAiders": 0,
-        "DawnRaiders": 0,
-        "The Legendary Raiders": 1,
-        "DemonicRaiders": 1,
-        "Raging Bull Raiders": 0,
-        "ShadyRaiders": 0
-    },
-    "guildChannels": {
-        "ShadeRaiders": 714086833461395477,
-        "ShadowRaiders": 714080718984183869,
-        "KRAiders": 716992128667877429,
-        "DawnRaiders": 772150308457283614,
-        "The Legendary Raiders": 805395634654937158,
-        "DemonicRaiders": 807582655683231804,
-        "Raging Bull Raiders": 826223646246043678,
-        "ShadyRaiders": 835322001005477958
-    },
-    "emojis": {
-        "ShadeRaiders": "<a:Shade:838800100452597840>",
-        "ShadowRaiders": "<a:Shadow:838791658874994688>",
-        "KRAiders": "<a:Kra:838793537281327104>",
-        "DawnRaiders": "<a:Dawn:838786097173364799>",
-        "The Legendary Raiders": "<a:Legendary:838795357038182440>",
-        "DemonicRaiders": "<a:Demonic:838789295954198529>",
-        "Raging Bull Raiders": "<a:Raging:838796907517313124>",
-        "ShadyRaiders": "<a:Shady:838801483972739082>"
+    "firebase": {
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "storageBucket": "",
+        "serviceAccount": ""
     }
 }

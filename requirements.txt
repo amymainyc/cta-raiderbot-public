@@ -2,3 +2,4 @@ discord
 loguru
 beautifulsoup4
 aiohttp
+pyrebase

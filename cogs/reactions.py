@@ -3,15 +3,14 @@ import discord
 import json
 from loguru import logger
 import asyncio
-from bs4 import BeautifulSoup
 import aiohttp
 import sys
 from utils.utils import *
 
 
 
-with open('data/config.json') as d:
-    config = json.load(d)
+with open('data/server.json') as d:
+    server = json.load(d)
 
 
 
@@ -28,9 +27,9 @@ class Reactions(commands.Cog):
     async def addNewReactionRole(self, ctx, emoji, role: discord.Role, *desc):
         try:
             if isDev(ctx):
-                config["reactions"]["reactionRoles"][str(emoji)] = [role.id, " ".join(desc)]
-                with open("data/config.json", "w") as f:
-                    json.dump(config, f, indent=4)
+                server["reactions"]["reactionRoles"][str(emoji)] = [role.id, " ".join(desc)]
+                with open("data/server.json", "w") as f:
+                    json.dump(server, f, indent=4)
                 await logUsage(f"New reaction role added by @{ctx.author.name}.", self.client) 
         except Exception as e:
             await handleException(e, self.client)
@@ -43,28 +42,30 @@ class Reactions(commands.Cog):
         # send a new reactions message
         try:
             if isDev(ctx):
-                channel = self.client.get_channel(config["reactions"]["channelID"])
+                channel = self.client.get_channel(server["reactions"]["channelID"])
                 try: 
-                    message = await channel.fetch_message(config["reactions"]["messageID"])
+                    message = await channel.fetch_message(server["reactions"]["messageID"])
                     await message.delete()
                 except: pass
                 embed = discord.Embed(
                     title="Reaction Roles",
                     description="React with one of the following emojis to get the role."
                 )
-                embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
+                embed.set_footer(text=server["general"]["footer"], icon_url=self.client.user.avatar_url)
 
-                reactionRoles = config["reactions"]["reactionRoles"]
+                reactionRoles = server["reactions"]["reactionRoles"]
                 for emoji in reactionRoles:
-                    title = f"{emoji} __**{ctx.guild.get_role(reactionRoles[emoji][0]).name}**__"
+                    guild = self.client.get_guild(server["general"]["guildID"])
+                    title = f"{emoji} __**{guild.get_role(reactionRoles[emoji][0]).name}**__"
                     text = f"{reactionRoles[emoji][1]}\n"
                     embed.add_field(name=title, value=text, inline=False)
                 message = await channel.send(embed=embed)
                 for emoji in reactionRoles:
                     await message.add_reaction(emoji)
-                with open("data/config.json", "w") as f:
-                    config["reactions"]["messageID"] = message.id
-                    json.dump(config, f, indent=4)
+                with open("data/server.json", "w") as f:
+                    server["reactions"]["messageID"] = message.id
+                    json.dump(server, f, indent=4)
+                await ctx.reply("```New reaction embed sent! Please make sure no other data has changed in server.json and then gitpush.```")
 
         except Exception as e:
             await handleException(e, self.client)
@@ -76,17 +77,18 @@ class Reactions(commands.Cog):
         # updates reactions message
         try:
             if isDev(ctx):
-                channel = self.client.get_channel(config["reactions"]["channelID"])
-                message = await channel.fetch_message(config["reactions"]["messageID"])
+                channel = self.client.get_channel(server["reactions"]["channelID"])
+                message = await channel.fetch_message(server["reactions"]["messageID"])
                 embed = discord.Embed(
                     title="Reaction Roles",
                     description="React with one of the following emojis to get the role."
                 )
-                embed.set_footer(text=config["config"]["footer"], icon_url=self.client.user.avatar_url)
+                embed.set_footer(text=server["general"]["footer"], icon_url=self.client.user.avatar_url)
 
-                reactionRoles = config["reactions"]["reactionRoles"]
+                reactionRoles = server["reactions"]["reactionRoles"]
                 for emoji in reactionRoles:
-                    title = f"{emoji} __**{ctx.guild.get_role(reactionRoles[emoji][0]).name}**__"
+                    guild = self.client.get_guild(server["general"]["guildID"])
+                    title = f"{emoji} __**{guild.get_role(reactionRoles[emoji][0]).name}**__"
                     text = f"{reactionRoles[emoji][1]}\n"
                     embed.add_field(name=title, value=text, inline=False)
                 for emoji in reactionRoles:
@@ -102,12 +104,10 @@ class Reactions(commands.Cog):
     async def on_raw_reaction_add(self, payload):
         # check for reactions on the reactions message
         try:
-            with open('data/config.json') as d:
-                config = json.load(d)
-            reactionRoles = config["reactions"]
+            reactionRoles = server["reactions"]
             messageID = reactionRoles["messageID"]
             if payload.message_id == messageID and payload.member != self.client.user:
-                channel = self.client.get_channel(config["reactions"]["channelID"])
+                channel = self.client.get_channel(server["reactions"]["channelID"])
                 message = await channel.fetch_message(messageID)
                 reactionRoles = reactionRoles["reactionRoles"]
                 if str(payload.emoji) in reactionRoles:
@@ -127,12 +127,10 @@ class Reactions(commands.Cog):
     async def on_raw_reaction_remove(self, payload):
         # check for reaction removals on the reactions message
         try:
-            with open('data/config.json') as d:
-                config = json.load(d)
-            reactionRoles = config["reactions"]
+            reactionRoles = server["reactions"]
             messageID = reactionRoles["messageID"]
             if payload.message_id == messageID and payload.user_id != self.client.user.id:
-                channel = self.client.get_channel(config["reactions"]["channelID"])
+                channel = self.client.get_channel(server["reactions"]["channelID"])
                 message = await channel.fetch_message(messageID)
                 reactionRoles = reactionRoles["reactionRoles"]
                 if str(payload.emoji) in reactionRoles:

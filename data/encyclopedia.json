@@ -113,7 +113,7 @@
         "Gender": "female",
         "Rarity": "Rare",
         "Base Stats": {
-            "ATK": "30",
+            "ATK": "32",
             "HP": "320",
             "DEF": "15",
             "DPS": "30",
@@ -125,7 +125,7 @@
         },
         "SP2": "Multi Light Arrows shoots five arrows each dealing x1 damage to the enemy hit.",
         "SP3": "",
-        "SP4": "200% Crit Damage",
+        "SP4": "Light: 10% APS",
         "Special Ability": "100% Ctk Dmg on Flying Targets",
         "Target Rune Set": {
             "Runes Sets": "Stunning - Don\u2019t spend many materials on her."
@@ -1116,7 +1116,7 @@
         "SP4": "Fire: 400% ATK",
         "Special Ability": "Knock-back, Evade Splash Damage",
         "Target Rune Set": {
-            "Runes Sets": "Don\u2019t spend materials on this hero."
+            "Runes Sets": "Vitality, Damage, Precise."
         },
         "Target Rune Stats": {
             "Target Weapon Stats": [
@@ -1885,7 +1885,7 @@
         "Gender": "male",
         "Rarity": "Rare",
         "Base Stats": {
-            "ATK": "32",
+            "ATK": "35",
             "HP": "480",
             "DEF": "8",
             "DPS": "32",
@@ -1897,7 +1897,7 @@
         },
         "SP2": "Ninja storm attacks 5 times dealing 1x per hit to one opponent.",
         "SP3": "",
-        "SP4": "Light: 10% APS",
+        "SP4": "Team: 200% Crit Damage",
         "Special Ability": "",
         "Target Rune Set": {
             "Crusher - Hitter Runes Sets": "Swift, Precise, Frenzy.",

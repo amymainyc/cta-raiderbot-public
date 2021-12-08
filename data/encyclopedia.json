@@ -6,6 +6,7 @@
         "Job": "brawler",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "48",
             "HP": "360",
@@ -42,6 +43,7 @@
         "Job": "ranger",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, fire chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "240",
@@ -85,18 +87,19 @@
         "Job": "support",
         "Gender": "female",
         "Rarity": "Legendary",
+        "Medals": "legendary chest",
         "Base Stats": {
-            "ATK": "14",
+            "ATK": "30",
             "HP": "500",
             "DEF": "20",
             "DPS": "14",
-            "APS": "0.333",
+            "APS": "0.667",
             "SPEED": "100",
             "RANGE": "650",
-            "CTK RATE": "0%",
+            "CTK RATE": "10%",
             "CTK DMG": "100%"
         },
-        "SP2": "Revive has a 50% chance to revive a dead hero and provide a percent of their health back. The health returned is based on her star.",
+        "SP2": "Revive has a 60% chance to revive a dead hero and provide a percent of their health back every 8 seconds. The health returned is based on her star.",
         "SP3": "Give a shield to all heroes and Atk up +79% for 20 seconds. The life of the shield is 10% of the caster's life.",
         "SP4": "Team: 125% HP",
         "Special Ability": "Auto-Shield, Anti Stun, Anti Poison",
@@ -112,6 +115,7 @@
         "Job": "ranger",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, light chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "320",
@@ -139,6 +143,7 @@
         "Job": "lancer",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "430",
@@ -169,12 +174,13 @@
         }
     },
     "Bat": {
-        "Image": "https://i.imgur.com/elkbvwg.png",
+        "Image": "https://i.imgur.com/elkbvwg.png", 
         "Emoji": "<:bat:840765933698023446>",
         "Type": "dark",
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "52",
             "HP": "220",
@@ -202,6 +208,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "25",
             "HP": "450",
@@ -229,6 +236,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "360",
@@ -256,6 +264,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "310",
@@ -283,6 +292,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "28",
             "HP": "200",
@@ -310,6 +320,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "240",
@@ -337,6 +348,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "400",
@@ -364,6 +376,7 @@
         "Job": "lancer",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "28",
             "HP": "280",
@@ -391,6 +404,7 @@
         "Job": "gunner",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, easter chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "22",
             "HP": "270",
@@ -418,6 +432,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "80",
             "HP": "440",
@@ -452,6 +467,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, halloween chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "50",
             "HP": "250",
@@ -481,6 +497,7 @@
         "Job": "brawler",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "45",
             "HP": "410",
@@ -517,6 +534,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, arena shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "52",
             "HP": "200",
@@ -552,6 +570,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "70",
             "HP": "320",
@@ -579,6 +598,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "400",
@@ -599,6 +619,42 @@
         },
         "Target Rune Stats": {}
     },
+    "Dragania": {
+        "Image": "https://i.imgur.com/bVWNcyF.png",
+        "Emoji": "<:dragania:917178167192588349>",
+        "Type": "fire",
+        "Job": "ranger",
+        "Gender": "female",
+        "Rarity": "Epic",
+        "Medals": "halloween chest",
+        "Base Stats": {
+            "ATK": "35",
+            "HP": "300",
+            "DEF": "12",
+            "DPS": "52",
+            "APS": ".667",
+            "SPEED": "100",
+            "RANGE": "550",
+            "CTK RATE": "20%",
+            "CTK DMG": "100%"
+        },
+        "SP2": "Angel Barrier creates a dome for 8s healing everyone inside for 2% of Paladin\u2019s Max HP each second (15s cooldown).",
+        "SP3": "",
+        "SP4": "Team: 25% less duration to negative effects",
+        "Special Ability": "",
+        "Target Rune Set": {
+            "Runes Sets": "Vitality two of Phalanx, Guard, Nimble."
+        },
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "250+% Knight Shield HP (Phalanx)",
+                "30+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
+            ]
+        }
+    },
     "Dragon Bot": {
         "Image": "https://i.imgur.com/i66Jpom.png",
         "Emoji": "<:dragonbot:840767225241665556>",
@@ -606,6 +662,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "44",
             "HP": "280",
@@ -633,6 +690,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "320",
@@ -660,6 +718,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "28",
             "HP": "280",
@@ -695,6 +754,7 @@
         "Job": "knight",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "60",
             "HP": "340",
@@ -723,6 +783,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "42",
             "HP": "840",
@@ -758,6 +819,7 @@
         "Job": "support",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "14",
             "HP": "200",
@@ -785,6 +847,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "480",
@@ -812,9 +875,10 @@
         "Job": "support",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, earth chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
-            "ATK": "20",
-            "HP": "250",
+            "ATK": "35",
+            "HP": "450",
             "DEF": "14",
             "DPS": "20",
             "APS": "0.5",
@@ -839,6 +903,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "48",
             "HP": "350",
@@ -866,6 +931,7 @@
         "Job": "support",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "10",
             "HP": "300",
@@ -893,6 +959,7 @@
         "Job": "samurai",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "magic medals, light chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "525",
@@ -909,9 +976,19 @@
         "SP4": "Team: 30% Movement Speed",
         "Special Ability": "Stun, Evade Splash Damage",
         "Target Rune Set": {
-            "Blitz Runes Sets": "Don\u2019t spend materials on this hero."
+            "Runes Sets": "(Not Recommended to build) Precise, Damage, Rage/Swift"
         },
-        "Target Rune Stats": {}
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "100+% HP (Primaries, secondaries)",
+                "400+% Atk (Damage, Primaries, secondaries)",
+                "200+% Crit Damage (Rage, Primaries, secondaries)",
+                "40+% Attack Speed (Swift, Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "<10% Movement Speed, ideally 0% (Secondaries)",
+                "55%-75% Attack Range (Secondaries)"
+            ]
+        }
     },
     "Hooky": {
         "Image": "https://i.imgur.com/JTJXlaM.png",
@@ -920,6 +997,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "30",
             "HP": "460",
@@ -947,10 +1025,11 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "magic medals, water chest, fortune chest, crusade shop, guild shop, daily dungeon",
         "Base Stats": {
-            "ATK": "45",
+            "ATK": "52",
             "HP": "710",
-            "DEF": "14",
+            "DEF": "28",
             "DPS": "45",
             "APS": ".83",
             "SPEED": "100",
@@ -960,7 +1039,7 @@
         },
         "SP2": "Multi Hit attacks three times dealing a total of 5x damage to the enemy hit. Each hit has a base AOE radius of 150 and a 10% chance to freeze for 2s. Damage is reduced by aoe decay",
         "SP3": "",
-        "SP4": "Team: 400% Def",
+        "SP4": "Enemies: -100% Crit Damage",
         "Special Ability": "Freeze, Anti Knock-back",
         "Target Rune Set": {
             "Tank Runes Sets": "Vitality, Nimble, anything with HP Primaries (Guard and Resist are decent Builds)."
@@ -982,6 +1061,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, christmas chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "48",
             "HP": "370",
@@ -1009,6 +1089,7 @@
         "Job": "rogue",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "240",
@@ -1036,6 +1117,7 @@
         "Job": "lancer",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, light chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "28",
             "HP": "500",
@@ -1063,6 +1145,7 @@
         "Job": "samurai",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "75",
             "HP": "260",
@@ -1079,17 +1162,17 @@
         "SP4": "universal 50% HP Debuff",
         "Special Ability": "Knock-back, Evade Splash Damage",
         "Target Rune Set": {
-            "Runes Sets": "Vitality - Don\u2019t spend many materials on this hero unless you want to spend a lot."
+            "Runes Sets": "Precise, Damage, Rage/Swift"
         },
         "Target Rune Stats": {
             "Target Weapon Stats": [
-                "250+% HP (Vitality, Primaries, secondaries)",
-                "200+% Atk (Damage, Primaries, secondaries)",
-                "100+% Crit Damage (Primaries, secondaries)",
-                "40+% Attack Speed (Primaries)",
+                "100+% HP (Primaries, secondaries)",
+                "400+% Atk (Damage, Primaries, secondaries)",
+                "200+% Crit Damage (Rage, Primaries, secondaries)",
+                "40+% Attack Speed (Swift, Primaries)",
                 "17.5+% Crit Rate (Precise)",
                 "<10% Movement Speed, ideally 0% (Secondaries)",
-                ">10% more Attack Range than tank (Secondaries)"
+                "55%-75% Attack Range (Secondaries)"
             ]
         }
     },
@@ -1100,6 +1183,7 @@
         "Job": "samurai",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, crusher chest, blitz chest, fortune chest, blitz shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "62",
             "HP": "220",
@@ -1116,17 +1200,17 @@
         "SP4": "Fire: 400% ATK",
         "Special Ability": "Knock-back, Evade Splash Damage",
         "Target Rune Set": {
-            "Runes Sets": "Vitality, Damage, Precise."
+            "Runes Sets": "Precise, Damage, Rage/Swift"
         },
         "Target Rune Stats": {
             "Target Weapon Stats": [
-                "250+% HP (Vitality, Primaries, secondaries)",
-                "200+% Atk (Damage, Primaries, secondaries)",
-                "100+% Crit Damage (Primaries, secondaries)",
-                "40+% Attack Speed (Primaries)",
+                "100+% HP (Primaries, secondaries)",
+                "400+% Atk (Damage, Primaries, secondaries)",
+                "200+% Crit Damage (Rage, Primaries, secondaries)",
+                "40+% Attack Speed (Swift, Primaries)",
                 "17.5+% Crit Rate (Precise)",
                 "<10% Movement Speed, ideally 0% (Secondaries)",
-                ">10% more Attack Range than tank (Secondaries)"
+                "55%-75% Attack Range (Secondaries)"
             ]
         }
     },
@@ -1137,6 +1221,7 @@
         "Job": "rogue",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, dark chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "240",
@@ -1170,6 +1255,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "280",
@@ -1197,12 +1283,13 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, light chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
-            "ATK": "28",
-            "HP": "600",
+            "ATK": "70",
+            "HP": "350",
             "DEF": "14",
             "DPS": "28",
-            "APS": ".83",
+            "APS": ".56",
             "SPEED": "120",
             "RANGE": "410",
             "CTK RATE": "10%",
@@ -1224,6 +1311,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "magic medals, earth chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "50",
             "HP": "370",
@@ -1259,6 +1347,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "25",
             "HP": "350",
@@ -1284,8 +1373,9 @@
         "Emoji": "<:luka:840769463057776662>",
         "Type": "water",
         "Job": "rogue",
-        "Gender": "female",
+        "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "37",
             "HP": "240",
@@ -1313,6 +1403,7 @@
         "Job": "brawler",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "reminiscence chest, halloween chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "500",
@@ -1348,6 +1439,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "65",
             "HP": "520",
@@ -1384,6 +1476,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "45",
             "HP": "350",
@@ -1419,6 +1512,7 @@
         "Job": "brawler",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "65",
             "HP": "360",
@@ -1446,6 +1540,7 @@
         "Job": "support",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, light chest, premium chest, blitz chest, fortune chest, bs, gs, dd",
         "Base Stats": {
             "ATK": "14",
             "HP": "270",
@@ -1473,6 +1568,7 @@
         "Job": "gunner",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "20",
             "HP": "280",
@@ -1517,6 +1613,7 @@
         "Job": "samurai",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "56",
             "HP": "260",
@@ -1533,9 +1630,19 @@
         "SP4": "Water: 400% ATK",
         "Special Ability": "Evade Splash Damage",
         "Target Rune Set": {
-            "Runes Sets": "Don\u2019t spend materials on this hero."
+            "Runes Sets": "Precise, Damage, Rage/Swift"
         },
-        "Target Rune Stats": {}
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "100+% HP (Primaries, secondaries)",
+                "400+% Atk (Damage, Primaries, secondaries)",
+                "200+% Crit Damage (Rage, Primaries, secondaries)",
+                "40+% Attack Speed (Swift, Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "<10% Movement Speed, ideally 0% (Secondaries)",
+                "55%-75% Attack Range (Secondaries)"
+            ]
+        }
     },
     "Monki King": {
         "Image": "https://i.imgur.com/sOvFkWz.png",
@@ -1544,6 +1651,7 @@
         "Job": "lancer",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, arena shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "210",
@@ -1567,13 +1675,13 @@
                 "110+% Stun Duration (Dazed, 3xPrimaries)",
                 "57.5+% APS (Swift, 4-5xPrimaries)",
                 "50+% AOE (Splash, 1-2xPrimaries)",
-                "48+% Attack Range (Secondaries)"
+                "35-45% Attack Range (Secondaries)"
             ],
             "Target Backline Stun Stats": [
                 "90+% Stun Duration (Dazed, 2xPrimaries - can do more AOE instead of APS primaries to hit farther back heroes)",
                 "17.5+% APS (Swift)",
                 "235+% AOE (Splash, 7xPrimaries - hits 750 ranged heroes)",
-                "48+% Attack Range (Secondaries)"
+                "35-45% Attack Range (Secondaries)"
             ]
         }
     },
@@ -1584,6 +1692,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, christmas chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "42",
             "HP": "420",
@@ -1617,6 +1726,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "230",
@@ -1653,6 +1763,7 @@
         "Job": "brawler",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "casino",
         "Base Stats": {
             "ATK": "50",
             "HP": "450",
@@ -1689,6 +1800,7 @@
         "Job": "samurai",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "50",
             "HP": "300",
@@ -1705,9 +1817,19 @@
         "SP4": "Earth: 25% Movement Speed",
         "Special Ability": "Evade Splash Damage",
         "Target Rune Set": {
-            "Runes Sets": "Don\u2019t spend materials on this hero."
+            "Runes Sets": "(Not Recommended to build) Precise, Damage, Rage/Swift"
         },
-        "Target Rune Stats": {}
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "100+% HP (Primaries, secondaries)",
+                "400+% Atk (Damage, Primaries, secondaries)",
+                "200+% Crit Damage (Rage, Primaries, secondaries)",
+                "40+% Attack Speed (Swift, Primaries)",
+                "17.5+% Crit Rate (Precise)",
+                "<10% Movement Speed, ideally 0% (Secondaries)",
+                "55%-75% Attack Range (Secondaries)"
+            ]
+        }
     },
     "Namida": {
         "Image": "https://i.imgur.com/9yPHTS7.png",
@@ -1716,6 +1838,7 @@
         "Job": "gunner",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "25",
             "HP": "320",
@@ -1758,6 +1881,7 @@
         "Job": "lancer",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "34",
             "HP": "440",
@@ -1785,6 +1909,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "38",
             "HP": "250",
@@ -1821,6 +1946,7 @@
         "Job": "brawler",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, dark chest, premium chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "80",
             "HP": "300",
@@ -1857,6 +1983,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "360",
@@ -1884,6 +2011,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "480",
@@ -1912,6 +2040,7 @@
         "Job": "lancer",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, dark chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "54",
             "HP": "300",
@@ -1947,15 +2076,16 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Legendary",
+        "Medals": "legendary chest",
         "Base Stats": {
-            "ATK": "64",
-            "HP": "500",
+            "ATK": "70",
+            "HP": "600",
             "DEF": "35",
             "DPS": "64",
             "APS": ".83",
-            "SPEED": "110",
+            "SPEED": "130",
             "RANGE": "150",
-            "CTK RATE": "10%",
+            "CTK RATE": "15%",
             "CTK DMG": "100%"
         },
         "SP2": "Shield Power Force pushes back nearby heroes and deals aoe damage with a base radius of 300 dealing 5x damage which is reduced by aoe decay.",
@@ -1982,6 +2112,7 @@
         "Job": "knight",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "35",
             "HP": "550",
@@ -1993,7 +2124,7 @@
             "CTK RATE": "10%",
             "CTK DMG": "100%"
         },
-        "SP2": "Angel Barrier creates a dome for 8s healing everyone inside for 1% of Paladin\u2019s Max HP each second.",
+        "SP2": "Angel Barrier creates a dome for 8s healing everyone inside for 2% of Paladin\u2019s Max HP each second (15s cooldown).",
         "SP3": "",
         "SP4": "Team: 25% less duration to negative effects",
         "Special Ability": "",
@@ -2017,6 +2148,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, earth chest, fortune chest, crusade shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "300",
@@ -2044,6 +2176,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, lunar chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "42",
             "HP": "200",
@@ -2071,6 +2204,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "28",
             "HP": "250",
@@ -2107,6 +2241,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, halloween chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "550",
@@ -2142,6 +2277,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "190",
@@ -2177,6 +2313,7 @@
         "Job": "gunner",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, easter chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "280",
@@ -2212,6 +2349,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "270",
@@ -2239,6 +2377,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, water chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "240",
@@ -2274,6 +2413,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "magic medals, fire chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "210",
@@ -2310,6 +2450,7 @@
         "Job": "lancer",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, lunar chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "430",
@@ -2357,6 +2498,7 @@
         "Job": "ranger",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "250",
@@ -2392,6 +2534,7 @@
         "Job": "barbarian",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, fire chest, fortune chest, crusade shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "55",
             "HP": "700",
@@ -2405,7 +2548,7 @@
         },
         "SP2": "Heavy Blow smashes the ground dealing aoe damage with a base radius of 350 dealing 5x damage which is reduced by aoe decay. The amount of damage done creates a shield to protect Shelly. Each hero hit has a 30% chance to be stunned for 2s. The shield accumulates health up to a maximum of 30% of Shelly\u2019s total HP.",
         "SP3": "",
-        "SP4": "Enemies: 100% Crit Damage Debuff",
+        "SP4": "Enemies: -100% Crit Damage",
         "Special Ability": "Burn, Explodes upon Death, Anti Knock-back",
         "Target Rune Set": {
             "Tank Runes Sets": "Vitality, Nimble and either Guard, Resist, Damage or Swift."
@@ -2434,6 +2577,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, light chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "780",
@@ -2469,6 +2613,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "380",
@@ -2504,6 +2649,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "300",
@@ -2531,6 +2677,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "200",
@@ -2558,6 +2705,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, christmas chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "280",
@@ -2585,6 +2733,7 @@
         "Job": "gunner",
         "Gender": "female",
         "Rarity": "Rare",
+        "Medals": "crusher chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "350",
@@ -2620,6 +2769,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "36",
             "HP": "250",
@@ -2663,6 +2813,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "26",
             "HP": "580",
@@ -2679,15 +2830,23 @@
         "SP4": "",
         "Special Ability": "Stun, Anti Knock-back",
         "Target Rune Set": {
+            "Smasher Runes Sets": "Vitality, Damage, Precise.",
             "Tank Runes Sets": "Vitality, Guard, Nimble."
         },
         "Target Rune Stats": {
-            "Target Weapon Stats": [
+            "Smasher Weapon Stats": [
                 "17.5+% Crit Rate (Precise)",
                 "300+% HP (Vitality, Secondaries)",
                 "250+% Atk (Damage, Secondaries)",
                 "200+% AOE (Primaries)",
                 "40+% Attack Range (Secondaries)"
+            ],
+            "Tank Weapon Stats": [
+                "690+% HP (Vitality, Primaries)",
+                "200+% Def (Guard, Secondaries)",
+                "17.5+% Dodge Rate (Nimble)",
+                "18+% Movement Speed (Secondaries)",
+                "<10% Attack Range, ideally 0% (Secondaries)"
             ]
         }
     },
@@ -2698,6 +2857,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "34",
             "HP": "260",
@@ -2725,6 +2885,7 @@
         "Job": "lancer",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, crusher chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "320",
@@ -2752,6 +2913,7 @@
         "Job": "ranger",
         "Gender": "female",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "24",
             "HP": "250",
@@ -2779,6 +2941,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "reminiscence chest, lunar chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "410",
@@ -2795,16 +2958,17 @@
         "SP4": "Light: 20% Elemental Damage Reduction (only affects dark attacking light)",
         "Special Ability": "",
         "Target Rune Set": {
-            "Runes Sets": "Vitality, Swift, then either Resist, Stunning, or possibly Nimble."
+            "Runes Sets": "Vitality, Swift, then either Frenzy, Nimble, Resist, or Stunning."
         },
         "Target Rune Stats": {
             "Target Weapon Stats": [
-                "200+% HP (Vitality, Secondaries)",
-                "80+% APS (Swift, Primaries)",
+                "300+% HP (Vitality, 3x Primaries, Secondaries)",
+                "70+% APS (Swift, 6x Primaries)",
+                "84+% Attack Range (Secondaries)",
+                "12.5+% Frenzy Chance (Frenzy)",
                 "17.5+% Dodge Rate (Nimble)",
                 "25+% Resist (Resist)",
-                "12.5+% Stun Chance (Stunning)",
-                "84+% Attack Range (Secondaries)"
+                "12.5+% Stun Chance (Stunning)"
             ]
         }
     },
@@ -2815,6 +2979,7 @@
         "Job": "brawler",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "52",
             "HP": "480",
@@ -2842,6 +3007,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, light chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "36",
             "HP": "360",
@@ -2878,6 +3044,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "blitz shop, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "48",
             "HP": "600",
@@ -2905,6 +3072,7 @@
         "Job": "magic",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, earth chest, crusher chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "400",
@@ -2940,6 +3108,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "38",
             "HP": "210",
@@ -2967,6 +3136,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "40",
             "HP": "220",
@@ -3003,6 +3173,7 @@
         "Job": "gunner",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "magic medals, fire chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "40",
             "HP": "300",
@@ -3030,6 +3201,7 @@
         "Job": "magic",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "reminiscence chest, easter chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "48",
             "HP": "340",
@@ -3066,6 +3238,7 @@
         "Job": "ranger",
         "Gender": "female",
         "Rarity": "Epic",
+        "Medals": "magic medals, water chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "280",
@@ -3101,6 +3274,7 @@
         "Job": "support",
         "Gender": "male",
         "Rarity": "Epic",
+        "Medals": "blitz chest",
         "Base Stats": {
             "ATK": "42",
             "HP": "250",
@@ -3136,6 +3310,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "24",
             "HP": "240",
@@ -3163,6 +3338,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "200",
@@ -3190,6 +3366,7 @@
         "Job": "lancer",
         "Gender": "female",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "32",
             "HP": "320",
@@ -3217,6 +3394,7 @@
         "Job": "ranger",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "24",
             "HP": "200",
@@ -3244,6 +3422,7 @@
         "Job": "rogue",
         "Gender": "male",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "30",
             "HP": "240",
@@ -3271,6 +3450,7 @@
         "Job": "barbarian",
         "Gender": "female",
         "Rarity": "Common",
+        "Medals": "magic medals, silver chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "45",
             "HP": "400",
@@ -3298,6 +3478,7 @@
         "Job": "barbarian",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, earth chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "35",
             "HP": "600",
@@ -3325,6 +3506,7 @@
         "Job": "support",
         "Gender": "male",
         "Rarity": "Rare",
+        "Medals": "magic medals, fire chest, premium chest, blitz chest, fortune chest, guild shop, daily dungeon",
         "Base Stats": {
             "ATK": "20",
             "HP": "180",
@@ -3341,8 +3523,17 @@
         "SP4": "Fire: 25% Movement Speed",
         "Special Ability": "Stun",
         "Target Rune Set": {
-            "Late Runes Sets": "Swift, Splash, Dazed."
+             "Runes Sets": "Swift, Vitality and either Dazed or Frenzy."
         },
-        "Target Rune Stats": {}
+        "Target Rune Stats": {
+            "Target Weapon Stats": [
+                "100+% Stun Duration (Dazed, 3xPrimaries)",
+                "150+% Health (Vitality, Secondaries)",
+                "150+% AOE (5xPrimaries)",
+                "60+% Attack Range (Secondaries)",
+                "20+% APS (Swift, 1xPrimary)",
+                "12.5% Frenzy Chance (Frenzy)"
+            ]
+        }
     }
 }
